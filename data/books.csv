@@ -1,0 +1,31 @@
+book_id,title,author,genre,themes,description,avg_rating
+1,The Alchemist,Paulo Coelho,Fiction,"journey,dreams,destiny,hope,adventure","A shepherd boy travels from Spain to Egypt in search of treasure, discovering the meaning of life along the way.",4.3
+2,Atomic Habits,James Clear,Self-Help,"productivity,growth,habits,change,discipline","A practical guide to building good habits and breaking bad ones through tiny consistent changes.",4.5
+3,The Hitchhiker's Guide to the Galaxy,Douglas Adams,Sci-Fi,"humor,adventure,absurdity,space,philosophy","An absurd and hilarious journey through space after Earth is demolished for a hyperspace bypass.",4.4
+4,Man's Search for Meaning,Viktor Frankl,Psychology,"suffering,purpose,resilience,meaning,survival","A psychiatrist's account of surviving Nazi concentration camps and finding meaning amid suffering.",4.6
+5,The Little Prince,Antoine de Saint-Exupéry,Classic,"love,loss,innocence,wisdom,loneliness","A pilot stranded in the desert meets a mysterious little prince from another planet.",4.4
+6,Educated,Tara Westover,Memoir,"resilience,family,identity,growth,trauma","A woman who grew up in a survivalist family escapes and educates herself, earning a PhD at Cambridge.",4.5
+7,Sapiens,Yuval Noah Harari,History,"history,society,humanity,evolution,culture","A brief history of humankind from ancient foragers to modern civilization.",4.4
+8,The Power of Now,Eckhart Tolle,Spirituality,"mindfulness,peace,presence,anxiety,calm","A guide to spiritual enlightenment through living in the present moment.",4.1
+9,Dune,Frank Herbert,Sci-Fi,"power,ecology,destiny,politics,survival","A young nobleman navigates politics, religion, and ecology on a desert planet rich in spice.",4.4
+10,The Four Agreements,Don Miguel Ruiz,Self-Help,"wisdom,happiness,freedom,peace,growth","Ancient Toltec wisdom offering a code of personal conduct that transforms lives.",4.2
+11,Flowers for Algernon,Daniel Keyes,Fiction,"intelligence,loneliness,empathy,identity,science","A man with low IQ undergoes experimental surgery to become a genius, with bittersweet results.",4.3
+12,When Breath Becomes Air,Paul Kalanithi,Memoir,"mortality,purpose,love,medicine,grief","A neurosurgeon diagnosed with terminal cancer reflects on what makes life meaningful.",4.6
+13,The Midnight Library,Matt Haig,Fiction,"regret,hope,depression,choices,life","A woman discovers a library between life and death where each book holds a different life she could have lived.",4.2
+14,Thinking Fast and Slow,Daniel Kahneman,Psychology,"cognition,decision-making,bias,thinking,science","A psychologist explores the two systems that drive the way we think and make decisions.",4.3
+15,The Alchemist of Souls,Anne Lyle,Fantasy,"magic,adventure,politics,mystery,ambition","In an alternate Elizabethan London, a young swordsman gets entangled in court intrigue.",4.0
+16,Coraline,Neil Gaiman,Fantasy,"courage,fear,imagination,family,darkness","A bored girl finds a secret door to a parallel world that seems perfect — until it turns sinister.",4.2
+17,The Subtle Art of Not Giving a F*ck,Mark Manson,Self-Help,"acceptance,values,happiness,truth,growth","A counterintuitive approach to living a good life by focusing on what truly matters.",4.0
+18,Deep Work,Cal Newport,Self-Help,"focus,productivity,discipline,career,success","Rules for focused success in a distracted world through deep, undistracted work.",4.3
+19,The Body Keeps the Score,Bessel van der Kolk,Psychology,"trauma,healing,resilience,mental-health,recovery","A psychiatrist explores how trauma reshapes the mind and body, and paths to recovery.",4.6
+20,Norwegian Wood,Haruki Murakami,Fiction,"love,grief,loneliness,memory,coming-of-age","A young man navigates love and loss in 1960s Tokyo, haunted by the death of his best friend.",4.3
+21,The Alchemist's Apprentice,Kate Thompson,Fantasy,"magic,growth,friendship,adventure,learning","A young girl discovers she has magical abilities and must learn to control them.",3.9
+22,Ikigai,Héctor García,Self-Help,"purpose,happiness,longevity,calm,meaning","The Japanese secret to a long and happy life — finding your reason for being.",4.2
+23,The Stranger,Albert Camus,Classic,"existentialism,alienation,indifference,philosophy,meaning","A detached French Algerian man commits a senseless murder and contemplates his fate.",4.0
+24,Grit,Angela Duckworth,Self-Help,"perseverance,passion,success,growth,resilience","A psychologist explains why talent alone is not enough — passion and perseverance matter more.",4.1
+25,The Kite Runner,Khaled Hosseini,Fiction,"guilt,redemption,friendship,war,love","A man haunted by his past betrayal of a childhood friend seeks redemption in war-torn Afghanistan.",4.4
+26,Brave New World,Aldous Huxley,Sci-Fi,"dystopia,society,freedom,control,identity","A futuristic society built on happiness through conditioning is challenged by a savage outsider.",4.1
+27,The Secret,Rhonda Byrne,Self-Help,"positivity,manifestation,abundance,hope,mindset","The law of attraction explains how positive thinking can transform your life.",3.7
+28,Quiet,Susan Cain,Psychology,"introversion,identity,society,work,relationships","A defence of introverts in a world that values extroversion too highly.",4.2
+29,1984,George Orwell,Sci-Fi,"dystopia,freedom,control,truth,surveillance","A totalitarian future where Big Brother monitors every thought and action of its citizens.",4.5
+30,The Road,Cormac McCarthy,Fiction,"survival,love,hope,despair,parenthood","A father and son journey through a post-apocalyptic wasteland, struggling to stay alive and human.",4.2
