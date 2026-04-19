@@ -1,31 +1,960 @@
 book_id,title,author,genre,themes,description,avg_rating
-1,The Alchemist,Paulo Coelho,Fiction,"journey,dreams,destiny,hope,adventure","A shepherd boy travels from Spain to Egypt in search of treasure, discovering the meaning of life along the way.",4.3
-2,Atomic Habits,James Clear,Self-Help,"productivity,growth,habits,change,discipline","A practical guide to building good habits and breaking bad ones through tiny consistent changes.",4.5
-3,The Hitchhiker's Guide to the Galaxy,Douglas Adams,Sci-Fi,"humor,adventure,absurdity,space,philosophy","An absurd and hilarious journey through space after Earth is demolished for a hyperspace bypass.",4.4
-4,Man's Search for Meaning,Viktor Frankl,Psychology,"suffering,purpose,resilience,meaning,survival","A psychiatrist's account of surviving Nazi concentration camps and finding meaning amid suffering.",4.6
-5,The Little Prince,Antoine de Saint-Exupéry,Classic,"love,loss,innocence,wisdom,loneliness","A pilot stranded in the desert meets a mysterious little prince from another planet.",4.4
-6,Educated,Tara Westover,Memoir,"resilience,family,identity,growth,trauma","A woman who grew up in a survivalist family escapes and educates herself, earning a PhD at Cambridge.",4.5
-7,Sapiens,Yuval Noah Harari,History,"history,society,humanity,evolution,culture","A brief history of humankind from ancient foragers to modern civilization.",4.4
-8,The Power of Now,Eckhart Tolle,Spirituality,"mindfulness,peace,presence,anxiety,calm","A guide to spiritual enlightenment through living in the present moment.",4.1
-9,Dune,Frank Herbert,Sci-Fi,"power,ecology,destiny,politics,survival","A young nobleman navigates politics, religion, and ecology on a desert planet rich in spice.",4.4
-10,The Four Agreements,Don Miguel Ruiz,Self-Help,"wisdom,happiness,freedom,peace,growth","Ancient Toltec wisdom offering a code of personal conduct that transforms lives.",4.2
-11,Flowers for Algernon,Daniel Keyes,Fiction,"intelligence,loneliness,empathy,identity,science","A man with low IQ undergoes experimental surgery to become a genius, with bittersweet results.",4.3
-12,When Breath Becomes Air,Paul Kalanithi,Memoir,"mortality,purpose,love,medicine,grief","A neurosurgeon diagnosed with terminal cancer reflects on what makes life meaningful.",4.6
-13,The Midnight Library,Matt Haig,Fiction,"regret,hope,depression,choices,life","A woman discovers a library between life and death where each book holds a different life she could have lived.",4.2
-14,Thinking Fast and Slow,Daniel Kahneman,Psychology,"cognition,decision-making,bias,thinking,science","A psychologist explores the two systems that drive the way we think and make decisions.",4.3
-15,The Alchemist of Souls,Anne Lyle,Fantasy,"magic,adventure,politics,mystery,ambition","In an alternate Elizabethan London, a young swordsman gets entangled in court intrigue.",4.0
-16,Coraline,Neil Gaiman,Fantasy,"courage,fear,imagination,family,darkness","A bored girl finds a secret door to a parallel world that seems perfect — until it turns sinister.",4.2
-17,The Subtle Art of Not Giving a F*ck,Mark Manson,Self-Help,"acceptance,values,happiness,truth,growth","A counterintuitive approach to living a good life by focusing on what truly matters.",4.0
-18,Deep Work,Cal Newport,Self-Help,"focus,productivity,discipline,career,success","Rules for focused success in a distracted world through deep, undistracted work.",4.3
-19,The Body Keeps the Score,Bessel van der Kolk,Psychology,"trauma,healing,resilience,mental-health,recovery","A psychiatrist explores how trauma reshapes the mind and body, and paths to recovery.",4.6
-20,Norwegian Wood,Haruki Murakami,Fiction,"love,grief,loneliness,memory,coming-of-age","A young man navigates love and loss in 1960s Tokyo, haunted by the death of his best friend.",4.3
-21,The Alchemist's Apprentice,Kate Thompson,Fantasy,"magic,growth,friendship,adventure,learning","A young girl discovers she has magical abilities and must learn to control them.",3.9
-22,Ikigai,Héctor García,Self-Help,"purpose,happiness,longevity,calm,meaning","The Japanese secret to a long and happy life — finding your reason for being.",4.2
-23,The Stranger,Albert Camus,Classic,"existentialism,alienation,indifference,philosophy,meaning","A detached French Algerian man commits a senseless murder and contemplates his fate.",4.0
-24,Grit,Angela Duckworth,Self-Help,"perseverance,passion,success,growth,resilience","A psychologist explains why talent alone is not enough — passion and perseverance matter more.",4.1
-25,The Kite Runner,Khaled Hosseini,Fiction,"guilt,redemption,friendship,war,love","A man haunted by his past betrayal of a childhood friend seeks redemption in war-torn Afghanistan.",4.4
-26,Brave New World,Aldous Huxley,Sci-Fi,"dystopia,society,freedom,control,identity","A futuristic society built on happiness through conditioning is challenged by a savage outsider.",4.1
-27,The Secret,Rhonda Byrne,Self-Help,"positivity,manifestation,abundance,hope,mindset","The law of attraction explains how positive thinking can transform your life.",3.7
-28,Quiet,Susan Cain,Psychology,"introversion,identity,society,work,relationships","A defence of introverts in a world that values extroversion too highly.",4.2
-29,1984,George Orwell,Sci-Fi,"dystopia,freedom,control,truth,surveillance","A totalitarian future where Big Brother monitors every thought and action of its citizens.",4.5
-30,The Road,Cormac McCarthy,Fiction,"survival,love,hope,despair,parenthood","A father and son journey through a post-apocalyptic wasteland, struggling to stay alive and human.",4.2
+0440234743,The Testament,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Testament by John Grisham,3.8
+0452264464,Beloved (Plume Contemporary Fiction),Toni Morrison,Fiction,"life,story,journey,discovery,humanity",Beloved (Plume Contemporary Fiction) by Toni Morrison,4.0
+0971880107,Wild Animus,Rich Shapero,Fiction,"life,story,journey,discovery,humanity",Wild Animus by Rich Shapero,2.1
+0345402871,Airframe,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",Airframe by Michael Crichton,3.9
+0345417623,Timeline,MICHAEL CRICHTON,Fiction,"life,story,journey,discovery,humanity",Timeline by MICHAEL CRICHTON,4.0
+0446310786,To Kill a Mockingbird,Harper Lee,Fiction,"life,story,journey,discovery,humanity",To Kill a Mockingbird by Harper Lee,4.5
+0449005615,Seabiscuit: An American Legend,LAURA HILLENBRAND,Fiction,"life,story,journey,discovery,humanity",Seabiscuit: An American Legend by LAURA HILLENBRAND,4.6
+0671888587,I'll Be Seeing You,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",I'll Be Seeing You by Mary Higgins Clark,3.8
+0553582747,From the Corner of His Eye,Dean Koontz,Fiction,"life,story,journey,discovery,humanity",From the Corner of His Eye by Dean Koontz,4.1
+0425182908,Isle of Dogs,Patricia Cornwell,Fiction,"life,story,journey,discovery,humanity",Isle of Dogs by Patricia Cornwell,2.9
+042518630X,Purity in Death,J.D. Robb,Mystery,"mystery,crime,suspense,detective",Purity in Death by J.D. Robb,3.9
+0842342702,Left Behind: A Novel of the Earth's Last Days (Left Behind #1),Tim Lahaye,Fiction,"life,story,journey,discovery,humanity",Left Behind: A Novel of the Earth's Last Days (Left Behind #1) by Tim Lahaye,3.5
+0440225701,The Street Lawyer,JOHN GRISHAM,Fiction,"life,story,journey,discovery,humanity",The Street Lawyer by JOHN GRISHAM,3.8
+042511774X,Breathing Lessons,Anne Tyler,Fiction,"life,story,journey,discovery,humanity",Breathing Lessons by Anne Tyler,3.7
+0804106304,The Joy Luck Club,Amy Tan,Fiction,"life,story,journey,discovery,humanity",The Joy Luck Club by Amy Tan,4.1
+0140067477,The Tao of Pooh,Benjamin Hoff,Fiction,"life,story,journey,discovery,humanity",The Tao of Pooh by Benjamin Hoff,4.0
+0345465083,Seabiscuit,LAURA HILLENBRAND,Fiction,"life,story,journey,discovery,humanity",Seabiscuit by LAURA HILLENBRAND,4.5
+1558531025,Life's Little Instruction Book (Life's Little Instruction Books (Paperback)),H. Jackson Brown,Memoir,"memoir,life,identity,resilience,growth",Life's Little Instruction Book (Life's Little Instruction Books (Paperback)) by H. Jackson Brown,4.0
+0316769487,The Catcher in the Rye,J.D. Salinger,Fiction,"life,story,journey,discovery,humanity",The Catcher in the Rye by J.D. Salinger,3.8
+0679429220,Midnight in the Garden of Good and Evil: A Savannah Story,John Berendt,Horror,"fear,darkness,suspense,supernatural",Midnight in the Garden of Good and Evil: A Savannah Story by John Berendt,4.1
+0671867156,Pretend You Don't See Her,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",Pretend You Don't See Her by Mary Higgins Clark,3.8
+0446677450,"Rich Dad, Poor Dad: What the Rich Teach Their Kids About Money--That the Poor and Middle Class Do Not!",Robert T. Kiyosaki,YA/Family,"family,growth,coming-of-age,identity","Rich Dad, Poor Dad: What the Rich Teach Their Kids About Money--That the Poor and Middle Class Do Not! by Robert T. Kiyosaki",4.0
+0451166892,The Pillars of the Earth,Ken Follett,Fiction,"life,story,journey,discovery,humanity",The Pillars of the Earth by Ken Follett,4.3
+067976397X,Corelli's Mandolin : A Novel,LOUIS DE BERNIERES,Fiction,"life,story,journey,discovery,humanity",Corelli's Mandolin : A Novel by LOUIS DE BERNIERES,4.1
+0786868716,The Five People You Meet in Heaven,Mitch Albom,Fiction,"life,story,journey,discovery,humanity",The Five People You Meet in Heaven by Mitch Albom,4.1
+0446612545,The Beach House,James Patterson,Fiction,"life,story,journey,discovery,humanity",The Beach House by James Patterson,3.8
+0671027360,Angels & Demons,Dan Brown,Fiction,"life,story,journey,discovery,humanity",Angels & Demons by Dan Brown,4.1
+0671042858,The Girl Who Loved Tom Gordon,Stephen King,Fiction,"life,story,journey,discovery,humanity",The Girl Who Loved Tom Gordon by Stephen King,3.6
+0060929790,One Hundred Years of Solitude,Gabriel Garcia Marquez,Fiction,"life,story,journey,discovery,humanity",One Hundred Years of Solitude by Gabriel Garcia Marquez,4.2
+0060976845,Little Altars Everywhere: A Novel,Rebecca Wells,Fiction,"life,story,journey,discovery,humanity",Little Altars Everywhere: A Novel by Rebecca Wells,3.8
+0671004573,Before I Say Good-Bye,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",Before I Say Good-Bye by Mary Higgins Clark,3.8
+038572179X,Atonement : A Novel,IAN MCEWAN,Fiction,"life,story,journey,discovery,humanity",Atonement : A Novel by IAN MCEWAN,3.9
+0553583468,"Whisper of Evil (Hooper, Kay. Evil Trilogy.)",Kay Hooper,Horror,"fear,darkness,suspense,supernatural","Whisper of Evil (Hooper, Kay. Evil Trilogy.) by Kay Hooper",4.0
+0380778556,Rebecca,Daphne Du Maurier,Fiction,"life,story,journey,discovery,humanity",Rebecca by Daphne Du Maurier,4.0
+0330332775,Bridget Jones's Diary,Helen Fielding,Memoir,"memoir,life,identity,resilience,growth",Bridget Jones's Diary by Helen Fielding,3.6
+0553278223,The Martian Chronicles,RAY BRADBURY,Fiction,"life,story,journey,discovery,humanity",The Martian Chronicles by RAY BRADBURY,4.2
+0060977493,The God of Small Things,Arundhati Roy,Spirituality,"spirituality,faith,meaning,purpose,peace",The God of Small Things by Arundhati Roy,3.8
+0316602906,The Big Bad Wolf: A Novel,James Patterson,Fiction,"life,story,journey,discovery,humanity",The Big Bad Wolf: A Novel by James Patterson,4.0
+0316693006,Four Blind Mice,James Patterson,Fiction,"life,story,journey,discovery,humanity",Four Blind Mice by James Patterson,4.2
+0345378490,Congo,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",Congo by Michael Crichton,3.7
+0375400117,Memoirs of a Geisha,Arthur Golden,Fiction,"life,story,journey,discovery,humanity",Memoirs of a Geisha by Arthur Golden,4.4
+0375705856,Plainsong (Vintage Contemporaries),KENT HARUF,Fiction,"life,story,journey,discovery,humanity",Plainsong (Vintage Contemporaries) by KENT HARUF,3.9
+0380717018,Body of Evidence (Kay Scarpetta Mysteries (Paperback)),Patricia D. Cornwell,Fiction,"life,story,journey,discovery,humanity",Body of Evidence (Kay Scarpetta Mysteries (Paperback)) by Patricia D. Cornwell,3.8
+0380718332,All That Remains (Kay Scarpetta Mysteries (Paperback)),Patricia D. Cornwell,Fiction,"life,story,journey,discovery,humanity",All That Remains (Kay Scarpetta Mysteries (Paperback)) by Patricia D. Cornwell,4.1
+0385497466,The Brethren,JOHN GRISHAM,Fiction,"life,story,journey,discovery,humanity",The Brethren by JOHN GRISHAM,3.7
+0385508042,The King of Torts,John Grisham,Fiction,"life,story,journey,discovery,humanity",The King of Torts by John Grisham,3.8
+0385509456,The Curious Incident of the Dog in the Night-Time : A Novel,MARK HADDON,Fiction,"life,story,journey,discovery,humanity",The Curious Incident of the Dog in the Night-Time : A Novel by MARK HADDON,4.2
+0385511612,Bleachers,John Grisham,Fiction,"life,story,journey,discovery,humanity",Bleachers by John Grisham,3.3
+0385730586,Sisterhood of the Traveling Pants,ANN BRASHARES,Fiction,"life,story,journey,discovery,humanity",Sisterhood of the Traveling Pants by ANN BRASHARES,4.2
+0446605484,Roses Are Red (Alex Cross Novels),James Patterson,Fiction,"life,story,journey,discovery,humanity",Roses Are Red (Alex Cross Novels) by James Patterson,4.3
+0446610399,The Rescue,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",The Rescue by Nicholas Sparks,3.7
+0449006522,Manhattan Hunt Club,JOHN SAUL,Fiction,"life,story,journey,discovery,humanity",Manhattan Hunt Club by JOHN SAUL,4.0
+0452282152,Girl with a Pearl Earring,Tracy Chevalier,Fiction,"life,story,journey,discovery,humanity",Girl with a Pearl Earring by Tracy Chevalier,4.1
+0671023616,Postmortem (Kay Scarpetta Mysteries (Paperback)),Patricia Cornwell,Fiction,"life,story,journey,discovery,humanity",Postmortem (Kay Scarpetta Mysteries (Paperback)) by Patricia Cornwell,4.1
+0671027387,Deception Point,Dan Brown,Fiction,"life,story,journey,discovery,humanity",Deception Point by Dan Brown,3.8
+0684848783,Tis : A Memoir,Frank McCourt,Memoir,"memoir,life,identity,resilience,growth",Tis : A Memoir by Frank McCourt,3.8
+155874262X,Chicken Soup for the Soul (Chicken Soup for the Soul),Jack Canfield,Spirituality,"spirituality,faith,meaning,purpose,peace",Chicken Soup for the Soul (Chicken Soup for the Soul) by Jack Canfield,4.0
+0060987103,Wicked: The Life and Times of the Wicked Witch of the West,Gregory Maguire,Fantasy,"magic,adventure,fantasy,quest,power",Wicked: The Life and Times of the Wicked Witch of the West by Gregory Maguire,3.9
+0151008116,Life of Pi,Yann Martel,Memoir,"memoir,life,identity,resilience,growth",Life of Pi by Yann Martel,4.1
+0525947647,Lies and the Lying Liars Who Tell Them: A Fair and Balanced Look at the Right,Al Franken,Fiction,"life,story,journey,discovery,humanity",Lies and the Lying Liars Who Tell Them: A Fair and Balanced Look at the Right by Al Franken,4.1
+0804111359,Secret History,DONNA TARTT,History,"history,war,society,power,change",Secret History by DONNA TARTT,3.8
+1558744150,Chicken Soup for the Woman's Soul (Chicken Soup for the Soul Series (Paper)),Jack Canfield,Spirituality,"spirituality,faith,meaning,purpose,peace",Chicken Soup for the Woman's Soul (Chicken Soup for the Soul Series (Paper)) by Jack Canfield,4.0
+0316782505,The Weight of Water,Anita Shreve,Fiction,"life,story,journey,discovery,humanity",The Weight of Water by Anita Shreve,3.9
+0440241413,Confessions of a Shopaholic,SOPHIE KINSELLA,Fiction,"life,story,journey,discovery,humanity",Confessions of a Shopaholic by SOPHIE KINSELLA,3.9
+0451526341,Animal Farm,George Orwell,Fiction,"life,story,journey,discovery,humanity",Animal Farm by George Orwell,4.1
+0684833395,Catch 22,Joseph Heller,Fiction,"life,story,journey,discovery,humanity",Catch 22 by Joseph Heller,4.1
+044023722X,A Painted House,John Grisham,Fiction,"life,story,journey,discovery,humanity",A Painted House by John Grisham,3.8
+0380730138,Vinegar Hill (Oprah's Book Club (Paperback)),A. Manette Ansay,Fiction,"life,story,journey,discovery,humanity",Vinegar Hill (Oprah's Book Club (Paperback)) by A. Manette Ansay,3.4
+0060188731,Bel Canto,Ann Patchett,Fiction,"life,story,journey,discovery,humanity",Bel Canto by Ann Patchett,4.1
+0142001740,The Secret Life of Bees,Sue Monk Kidd,Memoir,"memoir,life,identity,resilience,growth",The Secret Life of Bees by Sue Monk Kidd,4.3
+0312995423,Digital Fortress : A Thriller,Dan Brown,Thriller,"suspense,danger,adventure,survival",Digital Fortress : A Thriller by Dan Brown,3.9
+038542471X,The Client,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Client by John Grisham,3.8
+0515128554,Heart of the Sea (Irish Trilogy),Nora Roberts,Romance,"love,romance,relationships,emotion",Heart of the Sea (Irish Trilogy) by Nora Roberts,4.0
+0156528207,The Little Prince,Antoine de Saint-ExupÃÂ©ry,Fiction,"life,story,journey,discovery,humanity",The Little Prince by Antoine de Saint-ExupÃÂ©ry,4.5
+0380012863,Jonathan Livingston Seagull,Richard Bach,Fiction,"life,story,journey,discovery,humanity",Jonathan Livingston Seagull by Richard Bach,4.0
+0671867113,Moonlight Becomes You,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",Moonlight Becomes You by Mary Higgins Clark,3.8
+0060173289,Divine Secrets of the Ya-Ya Sisterhood : A Novel,Rebecca Wells,Fiction,"life,story,journey,discovery,humanity",Divine Secrets of the Ya-Ya Sisterhood : A Novel by Rebecca Wells,3.9
+006101351X,The Perfect Storm : A True Story of Men Against the Sea,Sebastian Junger,Memoir,"memoir,life,identity,resilience,growth",The Perfect Storm : A True Story of Men Against the Sea by Sebastian Junger,3.7
+0316666343,The Lovely Bones: A Novel,Alice Sebold,Fiction,"life,story,journey,discovery,humanity",The Lovely Bones: A Novel by Alice Sebold,4.1
+0440224675,Hannibal,Thomas Harris,Fiction,"life,story,journey,discovery,humanity",Hannibal by Thomas Harris,3.7
+1878424319,The Four Agreements: A Practical Guide to Personal Freedom,Don Miguel Ruiz,Fiction,"life,story,journey,discovery,humanity",The Four Agreements: A Practical Guide to Personal Freedom by Don Miguel Ruiz,3.8
+044021145X,The Firm,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Firm by John Grisham,3.9
+0316168815,The Lovely Bones,Alice Sebold,Fiction,"life,story,journey,discovery,humanity",The Lovely Bones by Alice Sebold,4.1
+0345424719,A Widow for One Year,JOHN IRVING,Fiction,"life,story,journey,discovery,humanity",A Widow for One Year by JOHN IRVING,4.1
+0375726403,Empire Falls,Richard Russo,History,"history,war,society,power,change",Empire Falls by Richard Russo,3.8
+0385503857,Oryx and Crake,Margaret Atwood,Fiction,"life,story,journey,discovery,humanity",Oryx and Crake by Margaret Atwood,4.5
+0440226104,Black and Blue,ANNA QUINDLEN,Fiction,"life,story,journey,discovery,humanity",Black and Blue by ANNA QUINDLEN,3.7
+0671021001,She's Come Undone (Oprah's Book Club),Wally Lamb,Fiction,"life,story,journey,discovery,humanity",She's Come Undone (Oprah's Book Club) by Wally Lamb,3.9
+0805063897,Nickel and Dimed: On (Not) Getting By in America,Barbara Ehrenreich,Fiction,"life,story,journey,discovery,humanity",Nickel and Dimed: On (Not) Getting By in America by Barbara Ehrenreich,4.1
+0842329129,Left Behind: A Novel of the Earth's Last Days (Left Behind No. 1),Tim Lahaye,Fiction,"life,story,journey,discovery,humanity",Left Behind: A Novel of the Earth's Last Days (Left Behind No. 1) by Tim Lahaye,4.1
+0060915544,The Bean Trees,Barbara Kingsolver,Fiction,"life,story,journey,discovery,humanity",The Bean Trees by Barbara Kingsolver,4.3
+0312195516,The Red Tent (Bestselling Backlist),Anita Diamant,Fiction,"life,story,journey,discovery,humanity",The Red Tent (Bestselling Backlist) by Anita Diamant,4.2
+0312278586,The Nanny Diaries: A Novel,Emma McLaughlin,Fiction,"life,story,journey,discovery,humanity",The Nanny Diaries: A Novel by Emma McLaughlin,3.7
+0380710218,Postmortem,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",Postmortem by Patricia Daniels Cornwell,4.0
+0156027321,Life of Pi,Yann Martel,Memoir,"memoir,life,identity,resilience,growth",Life of Pi by Yann Martel,4.1
+0385721420,Three Junes,JULIA GLASS,Fiction,"life,story,journey,discovery,humanity",Three Junes by JULIA GLASS,3.9
+0451202341,Back Roads,Tawni O'Dell,Fiction,"life,story,journey,discovery,humanity",Back Roads by Tawni O'Dell,3.7
+0449907481,A Thousand Acres (Ballantine Reader's Circle),JANE SMILEY,Fiction,"life,story,journey,discovery,humanity",A Thousand Acres (Ballantine Reader's Circle) by JANE SMILEY,3.9
+080213825X,Four Blondes,Candace Bushnell,Fiction,"life,story,journey,discovery,humanity",Four Blondes by Candace Bushnell,2.9
+0515127833,River's End,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",River's End by Nora Roberts,3.8
+0385490992,The Street Lawyer,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Street Lawyer by John Grisham,3.6
+0385424728,The Chamber,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Chamber by John Grisham,3.8
+0385472951,The Partner,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Partner by John Grisham,3.8
+0425182878,Chosen Prey,John Sandford,Fiction,"life,story,journey,discovery,humanity",Chosen Prey by John Sandford,3.8
+0553564528,Guilty as Sin,TAMI HOAG,Fiction,"life,story,journey,discovery,humanity",Guilty as Sin by TAMI HOAG,3.9
+055356451X,Night Sins,TAMI HOAG,Fiction,"life,story,journey,discovery,humanity",Night Sins by TAMI HOAG,4.0
+0345313860,"The Vampire Lestat (Vampire Chronicles, Book II)",ANNE RICE,Fiction,"life,story,journey,discovery,humanity","The Vampire Lestat (Vampire Chronicles, Book II) by ANNE RICE",4.1
+0345369947,The Mummy or Ramses the Damned,Anne Rice,Fiction,"life,story,journey,discovery,humanity",The Mummy or Ramses the Damned by Anne Rice,4.1
+0446394521,Daisy Fay and the Miracle Man,Fannie Flagg,Fiction,"life,story,journey,discovery,humanity",Daisy Fay and the Miracle Man by Fannie Flagg,3.7
+068484267X,Angela's Ashes: A Memoir,Frank McCourt,Memoir,"memoir,life,identity,resilience,growth",Angela's Ashes: A Memoir by Frank McCourt,4.2
+0553578693,The Next Accident,LISA GARDNER,Fiction,"life,story,journey,discovery,humanity",The Next Accident by LISA GARDNER,4.0
+0345413377,"The Amber Spyglass (His Dark Materials, Book 3)",PHILIP PULLMAN,Horror,"fear,darkness,suspense,supernatural","The Amber Spyglass (His Dark Materials, Book 3) by PHILIP PULLMAN",4.3
+0345413369,"The Subtle Knife (His Dark Materials, Book 2)",PHILIP PULLMAN,Horror,"fear,darkness,suspense,supernatural","The Subtle Knife (His Dark Materials, Book 2) by PHILIP PULLMAN",4.3
+0060938455,Fast Food Nation: The Dark Side of the All-American Meal,Eric Schlosser,Horror,"fear,darkness,suspense,supernatural",Fast Food Nation: The Dark Side of the All-American Meal by Eric Schlosser,4.2
+0440122090,Echoes,Maeve Binchy,Fiction,"life,story,journey,discovery,humanity",Echoes by Maeve Binchy,4.0
+0061009059,One for the Money (Stephanie Plum Novels (Paperback)),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",One for the Money (Stephanie Plum Novels (Paperback)) by Janet Evanovich,4.0
+0060930187,The Bell Jar : A Novel (Perennial Classics),Sylvia Plath,Fiction,"life,story,journey,discovery,humanity",The Bell Jar : A Novel (Perennial Classics) by Sylvia Plath,4.0
+0446364193,Along Came a Spider (Alex Cross Novels),James Patterson,Fiction,"life,story,journey,discovery,humanity",Along Came a Spider (Alex Cross Novels) by James Patterson,4.0
+0446519138,Simple Abundance:  A Daybook of Comfort and Joy,Sarah Ban Breathnach,Fiction,"life,story,journey,discovery,humanity",Simple Abundance:  A Daybook of Comfort and Joy by Sarah Ban Breathnach,4.0
+0399144463,Who Moved My Cheese? An Amazing Way to Deal with Change in Your Work and in Your Life,Spencer Johnson,Memoir,"memoir,life,identity,resilience,growth",Who Moved My Cheese? An Amazing Way to Deal with Change in Your Work and in Your Life by Spencer Johnson,3.6
+0140185216,On the Road (Penguin 20th Century Classics),Jack Kerouac,Fiction,"life,story,journey,discovery,humanity",On the Road (Penguin 20th Century Classics) by Jack Kerouac,4.0
+0684801221,OLD MAN AND THE SEA,Ernest Hemingway,Fiction,"life,story,journey,discovery,humanity",OLD MAN AND THE SEA by Ernest Hemingway,4.3
+0446672211,Where the Heart Is (Oprah's Book Club (Paperback)),Billie Letts,Romance,"love,romance,relationships,emotion",Where the Heart Is (Oprah's Book Club (Paperback)) by Billie Letts,4.2
+0140293248,The Girls' Guide to Hunting and Fishing,Melissa Bank,Fiction,"life,story,journey,discovery,humanity",The Girls' Guide to Hunting and Fishing by Melissa Bank,3.4
+0142000205,Icy Sparks,Gwyn Hyman Rubio,Fiction,"life,story,journey,discovery,humanity",Icy Sparks by Gwyn Hyman Rubio,3.8
+0385504209,The Da Vinci Code,Dan Brown,Fiction,"life,story,journey,discovery,humanity",The Da Vinci Code by Dan Brown,4.3
+0446525502,The Rescue,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",The Rescue by Nicholas Sparks,4.3
+0670892963,Bridget Jones : The Edge of Reason,Helen Fielding,Fiction,"life,story,journey,discovery,humanity",Bridget Jones : The Edge of Reason by Helen Fielding,3.6
+0316789089,The Pilot's Wife : A Novel Tag: Author of the Weight of Water (Oprah's Book Club (Hardcover)),Anita Shreve,Fiction,"life,story,journey,discovery,humanity",The Pilot's Wife : A Novel Tag: Author of the Weight of Water (Oprah's Book Club (Hardcover)) by Anita Shreve,3.9
+0385505833,Skipping Christmas,JOHN GRISHAM,Fiction,"life,story,journey,discovery,humanity",Skipping Christmas by JOHN GRISHAM,3.8
+0446523569,Message in a Bottle,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",Message in a Bottle by Nicholas Sparks,4.2
+0446531332,Nights in Rodanthe,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",Nights in Rodanthe by Nicholas Sparks,4.0
+0385420161,"Like Water for Chocolate: A Novel in Monthly Installments, With Recipes, Romances, and Home Remedies",Laura Esquivel,Fiction,"life,story,journey,discovery,humanity","Like Water for Chocolate: A Novel in Monthly Installments, With Recipes, Romances, and Home Remedies by Laura Esquivel",4.2
+0345339711,"The Two Towers (The Lord of the Rings, Part 2)",J.R.R. TOLKIEN,Fiction,"life,story,journey,discovery,humanity","The Two Towers (The Lord of the Rings, Part 2) by J.R.R. TOLKIEN",4.6
+0316969443,Suzanne's Diary for Nicholas,James Patterson,Memoir,"memoir,life,identity,resilience,growth",Suzanne's Diary for Nicholas by James Patterson,3.9
+0316693200,2nd Chance,James Patterson,Fiction,"life,story,journey,discovery,humanity",2nd Chance by James Patterson,3.8
+0064407667,"The Bad Beginning (A Series of Unfortunate Events, Book 1)",Lemony Snicket,Fiction,"life,story,journey,discovery,humanity","The Bad Beginning (A Series of Unfortunate Events, Book 1) by Lemony Snicket",3.8
+0316776963,Me Talk Pretty One Day,David Sedaris,Fiction,"life,story,journey,discovery,humanity",Me Talk Pretty One Day by David Sedaris,4.1
+0451181379,The Door to December,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",The Door to December by Dean R. Koontz,3.9
+0425142485,The Funhouse,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",The Funhouse by Dean R. Koontz,3.4
+038529929X,Hannibal,Thomas Harris,Fiction,"life,story,journey,discovery,humanity",Hannibal by Thomas Harris,3.7
+1573229571,About a Boy (Movie Tie-In),Nick Hornby,Fiction,"life,story,journey,discovery,humanity",About a Boy (Movie Tie-In) by Nick Hornby,3.9
+0743211383,Dreamcatcher,Stephen King,Fiction,"life,story,journey,discovery,humanity",Dreamcatcher by Stephen King,3.6
+0451205421,The Door to December,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",The Door to December by Dean R. Koontz,3.8
+0345391802,The Hitchhiker's Guide to the Galaxy,Douglas Adams,Sci-Fi,"space,science,future,technology,discovery",The Hitchhiker's Guide to the Galaxy by Douglas Adams,4.2
+0440219078,The Giver (21st Century Reference),LOIS LOWRY,Fiction,"life,story,journey,discovery,humanity",The Giver (21st Century Reference) by LOIS LOWRY,4.3
+0451155750,The Dead Zone,Stephen King,Fiction,"life,story,journey,discovery,humanity",The Dead Zone by Stephen King,4.0
+0786890436,The Diary of Ellen Rimbauer: My Life at Rose Red,Ellen Rimbauer,Memoir,"memoir,life,identity,resilience,growth",The Diary of Ellen Rimbauer: My Life at Rose Red by Ellen Rimbauer,3.8
+0385493800,The Testament,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Testament by John Grisham,3.7
+0440211727,A Time to Kill,JOHN GRISHAM,Fiction,"life,story,journey,discovery,humanity",A Time to Kill by JOHN GRISHAM,4.0
+038533334X,Charming Billy,Alice McDermott,Fiction,"life,story,journey,discovery,humanity",Charming Billy by Alice McDermott,3.5
+0553561618,Dark Paradise,TAMI HOAG,Horror,"fear,darkness,suspense,supernatural",Dark Paradise by TAMI HOAG,3.6
+0312422156,Middlesex: A Novel,Jeffrey Eugenides,Fiction,"life,story,journey,discovery,humanity",Middlesex: A Novel by Jeffrey Eugenides,4.2
+044022165X,The Rainmaker,JOHN GRISHAM,Fiction,"life,story,journey,discovery,humanity",The Rainmaker by JOHN GRISHAM,3.6
+0425124347,The Bad Place,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",The Bad Place by Dean R. Koontz,4.0
+0312282990,The Amazing Adventures of Kavalier & Clay,Michael Chabon,Fiction,"life,story,journey,discovery,humanity",The Amazing Adventures of Kavalier & Clay by Michael Chabon,4.1
+0394820371,The Phantom Tollbooth,Norton Juster,Fiction,"life,story,journey,discovery,humanity",The Phantom Tollbooth by Norton Juster,4.2
+0345348036,The Princess Bride: S Morgenstern's Classic Tale of True Love and High Adventure,WILLIAM GOLDMAN,Romance,"love,romance,relationships,emotion",The Princess Bride: S Morgenstern's Classic Tale of True Love and High Adventure by WILLIAM GOLDMAN,4.4
+0805062971,Fight Club,Chuck Palahniuk,Fiction,"life,story,journey,discovery,humanity",Fight Club by Chuck Palahniuk,4.3
+0671510053,SHIPPING NEWS,Annie Proulx,Fiction,"life,story,journey,discovery,humanity",SHIPPING NEWS by Annie Proulx,3.9
+055321313X,Anne of Green Gables (Anne of Green Gables Novels (Paperback)),L.M. MONTGOMERY,Fiction,"life,story,journey,discovery,humanity",Anne of Green Gables (Anne of Green Gables Novels (Paperback)) by L.M. MONTGOMERY,4.4
+0743237188,Fall On Your Knees (Oprah #45),Ann-Marie MacDonald,Fiction,"life,story,journey,discovery,humanity",Fall On Your Knees (Oprah #45) by Ann-Marie MacDonald,3.9
+0553586122,Reap the Wind,Iris Johansen,Fiction,"life,story,journey,discovery,humanity",Reap the Wind by Iris Johansen,4.0
+0553584510,The Survivors Club,LISA GARDNER,Fiction,"life,story,journey,discovery,humanity",The Survivors Club by LISA GARDNER,4.2
+0345443284,While I Was Gone,Sue Miller,Fiction,"life,story,journey,discovery,humanity",While I Was Gone by Sue Miller,3.5
+0553273914,The House of the Spirits,Isabel Allende,Fiction,"life,story,journey,discovery,humanity",The House of the Spirits by Isabel Allende,4.2
+039592720X,Interpreter of Maladies,Jhumpa Lahiri,Fiction,"life,story,journey,discovery,humanity",Interpreter of Maladies by Jhumpa Lahiri,4.3
+0060928336,Divine Secrets of the Ya-Ya Sisterhood: A Novel,Rebecca Wells,Fiction,"life,story,journey,discovery,humanity",Divine Secrets of the Ya-Ya Sisterhood: A Novel by Rebecca Wells,4.1
+0671003755,She's Come Undone (Oprah's Book Club (Paperback)),Wally Lamb,Fiction,"life,story,journey,discovery,humanity",She's Come Undone (Oprah's Book Club (Paperback)) by Wally Lamb,3.8
+0440215625,Dragonfly in Amber,DIANA GABALDON,Fiction,"life,story,journey,discovery,humanity",Dragonfly in Amber by DIANA GABALDON,4.3
+0316777730,Naked,David Sedaris,Fiction,"life,story,journey,discovery,humanity",Naked by David Sedaris,4.1
+0877733759,Writing Down the Bones,NATALIE GOLDBERG,Fiction,"life,story,journey,discovery,humanity",Writing Down the Bones by NATALIE GOLDBERG,4.5
+0446601241,Kiss the Girls,James Patterson,Romance,"love,romance,relationships,emotion",Kiss the Girls by James Patterson,4.1
+0345384466,The Witching Hour (Lives of the Mayfair Witches),ANNE RICE,Fiction,"life,story,journey,discovery,humanity",The Witching Hour (Lives of the Mayfair Witches) by ANNE RICE,4.1
+0446604801,Jack & Jill (Alex Cross Novels),James Patterson,Fiction,"life,story,journey,discovery,humanity",Jack & Jill (Alex Cross Novels) by James Patterson,3.9
+0679734775,The House on Mango Street (Vintage Contemporaries),SANDRA CISNEROS,Fiction,"life,story,journey,discovery,humanity",The House on Mango Street (Vintage Contemporaries) by SANDRA CISNEROS,3.6
+0380789035,American Gods,Neil Gaiman,Fiction,"life,story,journey,discovery,humanity",American Gods by Neil Gaiman,4.0
+0060964049,"Tales of the City (Tales of the City Series, V. 1)",Armistead Maupin,Fiction,"life,story,journey,discovery,humanity","Tales of the City (Tales of the City Series, V. 1) by Armistead Maupin",4.0
+0440206154,Red Dragon,Thomas Harris,Fantasy,"magic,adventure,fantasy,quest,power",Red Dragon by Thomas Harris,4.1
+0345370775,Jurassic Park,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",Jurassic Park by Michael Crichton,3.9
+0373484224,Stanislaski Brothers (Silhouette Promo),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Stanislaski Brothers (Silhouette Promo) by Nora Roberts,3.5
+0380789019,Neverwhere,Neil Gaiman,Fiction,"life,story,journey,discovery,humanity",Neverwhere by Neil Gaiman,4.1
+0380018179,The Thorn Birds,Colleen McCullough,Fiction,"life,story,journey,discovery,humanity",The Thorn Birds by Colleen McCullough,4.1
+067101420X,"Forever... : A Novel of Good and Evil, Love and Hope",Jude Deveraux,Romance,"love,romance,relationships,emotion","Forever... : A Novel of Good and Evil, Love and Hope by Jude Deveraux",3.6
+0553571656,The Beekeeper's Apprentice,LAURIE R. KING,Fiction,"life,story,journey,discovery,humanity",The Beekeeper's Apprentice by LAURIE R. KING,3.9
+000649840X,Angelas Ashes,Frank Mccourt,Fiction,"life,story,journey,discovery,humanity",Angelas Ashes by Frank Mccourt,3.7
+0099771519,Memoirs of a Geisha Uk,Arthur Golden,Fiction,"life,story,journey,discovery,humanity",Memoirs of a Geisha Uk by Arthur Golden,4.2
+0385498721,Survivor : A Novel,CHUCK PALAHNIUK,Fiction,"life,story,journey,discovery,humanity",Survivor : A Novel by CHUCK PALAHNIUK,4.2
+0380813815,"Lamb : The Gospel According to Biff, Christ's Childhood Pal",Christopher Moore,Fiction,"life,story,journey,discovery,humanity","Lamb : The Gospel According to Biff, Christ's Childhood Pal by Christopher Moore",4.3
+0439404371,The Thief Lord,Cornelia Funke,Fiction,"life,story,journey,discovery,humanity",The Thief Lord by Cornelia Funke,4.0
+1573225789,The Color of Water: A Black Man's Tribute to His White Mother,James McBride,Fiction,"life,story,journey,discovery,humanity",The Color of Water: A Black Man's Tribute to His White Mother by James McBride,4.0
+0553296981,Anne Frank: The Diary of a Young Girl,ANNE FRANK,Memoir,"memoir,life,identity,resilience,growth",Anne Frank: The Diary of a Young Girl by ANNE FRANK,4.4
+0451169530,The Stand: Complete and Uncut,Stephen King,Fiction,"life,story,journey,discovery,humanity",The Stand: Complete and Uncut by Stephen King,4.3
+0385335881,Shopaholic Takes Manhattan (Summer Display Opportunity),Sophie Kinsella,Fiction,"life,story,journey,discovery,humanity",Shopaholic Takes Manhattan (Summer Display Opportunity) by Sophie Kinsella,4.1
+0385335482,Confessions of a Shopaholic (Summer Display Opportunity),SOPHIE KINSELLA,Fiction,"life,story,journey,discovery,humanity",Confessions of a Shopaholic (Summer Display Opportunity) by SOPHIE KINSELLA,3.9
+0553258001,The Cider House Rules,John Irving,Fiction,"life,story,journey,discovery,humanity",The Cider House Rules by John Irving,4.1
+0805063889,Nickel and Dimed: On (Not) Getting By in America,Barbara Ehrenreich,Fiction,"life,story,journey,discovery,humanity",Nickel and Dimed: On (Not) Getting By in America by Barbara Ehrenreich,4.2
+0441003257,Good Omens,Neil Gaiman,Fiction,"life,story,journey,discovery,humanity",Good Omens by Neil Gaiman,4.2
+0446606812,Message in a Bottle,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",Message in a Bottle by Nicholas Sparks,3.7
+0671028375,Fatal Voyage,Kathy Reichs,Fiction,"life,story,journey,discovery,humanity",Fatal Voyage by Kathy Reichs,4.0
+0060930535,The Poisonwood Bible: A Novel,Barbara Kingsolver,Fiction,"life,story,journey,discovery,humanity",The Poisonwood Bible: A Novel by Barbara Kingsolver,4.1
+0375702709,A Lesson Before Dying (Vintage Contemporaries (Paperback)),Ernest J. Gaines,Fiction,"life,story,journey,discovery,humanity",A Lesson Before Dying (Vintage Contemporaries (Paperback)) by Ernest J. Gaines,3.7
+0671038184,Jewel,Bret Lott,Fiction,"life,story,journey,discovery,humanity",Jewel by Bret Lott,3.8
+0060916508,Their Eyes Were Watching God: A Novel,Zora Neale Hurston,Spirituality,"spirituality,faith,meaning,purpose,peace",Their Eyes Were Watching God: A Novel by Zora Neale Hurston,4.3
+0590660543,Northern Lights (His Dark Materials S.),Philip Pullman,Horror,"fear,darkness,suspense,supernatural",Northern Lights (His Dark Materials S.) by Philip Pullman,4.2
+0345361792,A Prayer for Owen Meany,John Irving,Spirituality,"spirituality,faith,meaning,purpose,peace",A Prayer for Owen Meany by John Irving,4.3
+006092988X,A Tree Grows in Brooklyn,Betty Smith,Fiction,"life,story,journey,discovery,humanity",A Tree Grows in Brooklyn by Betty Smith,4.7
+0743225406,The Shipping News : A Novel,Annie Proulx,Fiction,"life,story,journey,discovery,humanity",The Shipping News : A Novel by Annie Proulx,4.0
+1400034779,The No. 1 Ladies' Detective Agency (Today Show Book Club #8),Alexander McCall Smith,Mystery,"mystery,crime,suspense,detective",The No. 1 Ladies' Detective Agency (Today Show Book Club #8) by Alexander McCall Smith,4.1
+0786885688,Shopgirl,Steve Martin,Fiction,"life,story,journey,discovery,humanity",Shopgirl by Steve Martin,3.6
+0671880187,Kitchen,Banana Yoshimoto,Food,"food,creativity,culture,pleasure",Kitchen by Banana Yoshimoto,3.9
+037570504X,"Breath, Eyes, Memory",Edwidge Danticat,Fiction,"life,story,journey,discovery,humanity","Breath, Eyes, Memory by Edwidge Danticat",3.6
+0767902521,A Walk in the Woods: Rediscovering America on the Appalachian Trail (Official Guides to the Appalachian Trail),Bill Bryson,Fiction,"life,story,journey,discovery,humanity",A Walk in the Woods: Rediscovering America on the Appalachian Trail (Official Guides to the Appalachian Trail) by Bill Bryson,4.1
+0553377868,The Flanders Panel,ARTURO PEREZ-REVERTE,Fiction,"life,story,journey,discovery,humanity",The Flanders Panel by ARTURO PEREZ-REVERTE,4.0
+080410753X,The Kitchen God's Wife,Amy Tan,Spirituality,"spirituality,faith,meaning,purpose,peace",The Kitchen God's Wife by Amy Tan,4.1
+014131088X,Speak,Laurie Halse Anderson,Fiction,"life,story,journey,discovery,humanity",Speak by Laurie Halse Anderson,4.1
+0140244824,Songs in Ordinary Time (Oprah's Book Club (Paperback)),Mary McGarry Morris,Fiction,"life,story,journey,discovery,humanity",Songs in Ordinary Time (Oprah's Book Club (Paperback)) by Mary McGarry Morris,3.3
+0385508417,Skipping Christmas,JOHN GRISHAM,Fiction,"life,story,journey,discovery,humanity",Skipping Christmas by JOHN GRISHAM,3.8
+0385510438,The Last Juror,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Last Juror by John Grisham,4.2
+0385324057,Summer Sisters,Judy Blume,Fiction,"life,story,journey,discovery,humanity",Summer Sisters by Judy Blume,3.7
+014025448X,At Home in Mitford (The Mitford Years),Jan Karon,Fiction,"life,story,journey,discovery,humanity",At Home in Mitford (The Mitford Years) by Jan Karon,3.9
+0060934417,Bel Canto: A Novel,Ann Patchett,Fiction,"life,story,journey,discovery,humanity",Bel Canto: A Novel by Ann Patchett,4.1
+0671793489,All Around the Town,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",All Around the Town by Mary Higgins Clark,4.1
+0312983824,Faking It,Jennifer Crusie,Fiction,"life,story,journey,discovery,humanity",Faking It by Jennifer Crusie,3.8
+0440224624,The Loop,Nicholas Evans,Fiction,"life,story,journey,discovery,humanity",The Loop by Nicholas Evans,3.5
+0743418174,Good in Bed,Jennifer Weiner,Fiction,"life,story,journey,discovery,humanity",Good in Bed by Jennifer Weiner,4.0
+0345370805,How to Make an American Quilt,Whitney Otto,Fiction,"life,story,journey,discovery,humanity",How to Make an American Quilt by Whitney Otto,3.6
+0375703055,Ellen Foster,Kaye Gibbons,Fiction,"life,story,journey,discovery,humanity",Ellen Foster by Kaye Gibbons,3.8
+0446673544,Sex & the City,Candace Bushnell,Fiction,"life,story,journey,discovery,humanity",Sex & the City by Candace Bushnell,2.9
+0312243022,The Hours : A Novel,Michael Cunningham,Fiction,"life,story,journey,discovery,humanity",The Hours : A Novel by Michael Cunningham,3.7
+0385490445,Alias Grace : A Novel,Margaret Atwood,Fiction,"life,story,journey,discovery,humanity",Alias Grace : A Novel by Margaret Atwood,4.2
+0375700757,Cold Mountain : A Novel,CHARLES FRAZIER,Fiction,"life,story,journey,discovery,humanity",Cold Mountain : A Novel by CHARLES FRAZIER,3.7
+0070212570,Fried Green Tomatoes at the Whistle Stop Cafe,Fannie Flagg,Fiction,"life,story,journey,discovery,humanity",Fried Green Tomatoes at the Whistle Stop Cafe by Fannie Flagg,4.3
+0316781266,The Last Time They Met : A Novel,Anita Shreve,Fiction,"life,story,journey,discovery,humanity",The Last Time They Met : A Novel by Anita Shreve,3.2
+0380814021,The Princess Diaries,Meg Cabot,Fiction,"life,story,journey,discovery,humanity",The Princess Diaries by Meg Cabot,4.2
+0375725784,A Heartbreaking Work of Staggering Genius,Dave Eggers,Fiction,"life,story,journey,discovery,humanity",A Heartbreaking Work of Staggering Genius by Dave Eggers,3.7
+0345436911,The Dress Lodger (Ballantine Reader's Circle),Sheri Holman,Fiction,"life,story,journey,discovery,humanity",The Dress Lodger (Ballantine Reader's Circle) by Sheri Holman,3.7
+0345339703,"The Fellowship of the Ring (The Lord of the Rings, Part 1)",J.R.R. TOLKIEN,Fiction,"life,story,journey,discovery,humanity","The Fellowship of the Ring (The Lord of the Rings, Part 1) by J.R.R. TOLKIEN",4.5
+0670030643,The Eyre Affair (Alex Awards (Awards)),Jasper Fforde,Fiction,"life,story,journey,discovery,humanity",The Eyre Affair (Alex Awards (Awards)) by Jasper Fforde,4.0
+0440940001,Island of the Blue Dolphins (Laurel Leaf Books),Scott O'Dell,Fiction,"life,story,journey,discovery,humanity",Island of the Blue Dolphins (Laurel Leaf Books) by Scott O'Dell,4.3
+0671042262,The Blue Nowhere : A Novel,Jeffery Deaver,Fiction,"life,story,journey,discovery,humanity",The Blue Nowhere : A Novel by Jeffery Deaver,3.9
+0679731148,A Year in Provence,Peter Mayle,Fiction,"life,story,journey,discovery,humanity",A Year in Provence by Peter Mayle,4.0
+0553580272,"House Atreides (Dune: House Trilogy, Book 1)",Brian Herbert,Fiction,"life,story,journey,discovery,humanity","House Atreides (Dune: House Trilogy, Book 1) by Brian Herbert",4.1
+0449912558,The Sparrow,MARY DORIA RUSSELL,Fiction,"life,story,journey,discovery,humanity",The Sparrow by MARY DORIA RUSSELL,4.3
+0440226430,Summer Sisters,Judy Blume,Fiction,"life,story,journey,discovery,humanity",Summer Sisters by Judy Blume,3.8
+089480829X,What to Expect When You're Expecting (Revised Edition),Arlene Eisenberg,Fiction,"life,story,journey,discovery,humanity",What to Expect When You're Expecting (Revised Edition) by Arlene Eisenberg,4.0
+0894805770,What to Expect the First Year,Arlene Eisenberg,Fiction,"life,story,journey,discovery,humanity",What to Expect the First Year by Arlene Eisenberg,4.2
+0688177751,Miss Julia Speaks Her Mind : A Novel,Ann B. Ross,Self-Help,"growth,productivity,success,mindset,change",Miss Julia Speaks Her Mind : A Novel by Ann B. Ross,3.8
+0345438329,Big Stone Gap: A Novel (Ballantine Reader's Circle),Adriana Trigiani,Fiction,"life,story,journey,discovery,humanity",Big Stone Gap: A Novel (Ballantine Reader's Circle) by Adriana Trigiani,3.8
+0375707972,The Reader,Bernhard Schlink,Fiction,"life,story,journey,discovery,humanity",The Reader by Bernhard Schlink,3.7
+0345446860,Back When We Were Grownups : A Novel (Ballantine Reader's Circle),ANNE TYLER,Fiction,"life,story,journey,discovery,humanity",Back When We Were Grownups : A Novel (Ballantine Reader's Circle) by ANNE TYLER,3.4
+0399145087,Black Notice,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",Black Notice by Patricia Daniels Cornwell,3.9
+0312990456,One for the Money (A Stephanie Plum Novel),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",One for the Money (A Stephanie Plum Novel) by Janet Evanovich,4.3
+0316969680,The Beach House,James Patterson,Fiction,"life,story,journey,discovery,humanity",The Beach House by James Patterson,3.6
+0399501487,Lord of the Flies,William Gerald Golding,Fiction,"life,story,journey,discovery,humanity",Lord of the Flies by William Gerald Golding,4.1
+0440224764,The Partner,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Partner by John Grisham,3.9
+0553572997,The Alienist,Caleb Carr,Fiction,"life,story,journey,discovery,humanity",The Alienist by Caleb Carr,3.9
+0380727501,Notes from a Small Island,Bill Bryson,Fiction,"life,story,journey,discovery,humanity",Notes from a Small Island by Bill Bryson,4.0
+0373218192,Engaging The Enemy,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Engaging The Enemy by Nora Roberts,3.7
+0345416260,Pope Joan (Ballantine Reader's Circle),Donna Woolfolk Cross,Fiction,"life,story,journey,discovery,humanity",Pope Joan (Ballantine Reader's Circle) by Donna Woolfolk Cross,4.0
+0385486804,Into the Wild,Jon Krakauer,Fiction,"life,story,journey,discovery,humanity",Into the Wild by Jon Krakauer,4.1
+0385512104,The Curious Incident of the Dog in the Night-Time (Today Show Book Club #13),Mark Haddon,Fiction,"life,story,journey,discovery,humanity",The Curious Incident of the Dog in the Night-Time (Today Show Book Club #13) by Mark Haddon,4.1
+0440236673,The Brethren,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Brethren by John Grisham,3.8
+0440235162,The Smoke Jumper,Nicholas Evans,Fiction,"life,story,journey,discovery,humanity",The Smoke Jumper by Nicholas Evans,3.9
+076790382X,I'm a Stranger Here Myself: Notes on Returning to America After 20 Years Away,Bill Bryson,Fiction,"life,story,journey,discovery,humanity",I'm a Stranger Here Myself: Notes on Returning to America After 20 Years Away by Bill Bryson,4.0
+0425158616,Cause of Death,Patricia Daniels Cornwell,Mystery,"mystery,crime,suspense,detective",Cause of Death by Patricia Daniels Cornwell,3.9
+0062502182,The Alchemist: A Fable About Following Your Dream,Paulo Coelho,Fiction,"life,story,journey,discovery,humanity",The Alchemist: A Fable About Following Your Dream by Paulo Coelho,4.0
+0060175400,The Poisonwood Bible,Barbara Kingsolver,Fiction,"life,story,journey,discovery,humanity",The Poisonwood Bible by Barbara Kingsolver,4.5
+0425169863,Point of Origin,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",Point of Origin by Patricia Daniels Cornwell,4.0
+0345380371,Rising Sun,MICHAEL CRICHTON,Fiction,"life,story,journey,discovery,humanity",Rising Sun by MICHAEL CRICHTON,3.7
+0446609323,Black Friday,James Patterson,Fiction,"life,story,journey,discovery,humanity",Black Friday by James Patterson,3.5
+0316690619,Cradle and All,James Patterson,Fiction,"life,story,journey,discovery,humanity",Cradle and All by James Patterson,3.2
+0446610038,1st to Die: A Novel,James Patterson,Fiction,"life,story,journey,discovery,humanity",1st to Die: A Novel by James Patterson,3.9
+0385492081,Into Thin Air : A Personal Account of the Mt. Everest Disaster,JON KRAKAUER,Fiction,"life,story,journey,discovery,humanity",Into Thin Air : A Personal Account of the Mt. Everest Disaster by JON KRAKAUER,4.3
+067976402X,Snow Falling on Cedars,David Guterson,Fiction,"life,story,journey,discovery,humanity",Snow Falling on Cedars by David Guterson,4.0
+0743457358,Everything's Eventual : 14 Dark Tales,Stephen King,Horror,"fear,darkness,suspense,supernatural",Everything's Eventual : 14 Dark Tales by Stephen King,4.1
+0425167313,Here on Earth,Alice Hoffman,Fiction,"life,story,journey,discovery,humanity",Here on Earth by Alice Hoffman,3.5
+034540288X,The Lost World,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",The Lost World by Michael Crichton,3.7
+0609610597,"The Shelters of Stone (Earth's Children Series, No 5)",JEAN M. AUEL,Fiction,"life,story,journey,discovery,humanity","The Shelters of Stone (Earth's Children Series, No 5) by JEAN M. AUEL",3.5
+0449212602,The Handmaid's Tale,Margaret Atwood,Fiction,"life,story,journey,discovery,humanity",The Handmaid's Tale by Margaret Atwood,4.3
+0684867621,The Girl Who Loved Tom Gordon : A Novel,Stephen King,Fiction,"life,story,journey,discovery,humanity",The Girl Who Loved Tom Gordon : A Novel by Stephen King,3.6
+0345413903,The Murder Book,Jonathan Kellerman,Mystery,"mystery,crime,suspense,detective",The Murder Book by Jonathan Kellerman,4.0
+0553582143,Body of Lies,IRIS JOHANSEN,Fiction,"life,story,journey,discovery,humanity",Body of Lies by IRIS JOHANSEN,4.0
+0316569321,White Oleander : A Novel,Janet Fitch,Fiction,"life,story,journey,discovery,humanity",White Oleander : A Novel by Janet Fitch,3.9
+0515095826,The Cat Who Knew Shakespeare,Lilian Jackson Braun,Fiction,"life,story,journey,discovery,humanity",The Cat Who Knew Shakespeare by Lilian Jackson Braun,3.5
+0553375407,Ishmael: An Adventure of the Mind and Spirit,Daniel Quinn,Spirituality,"spirituality,faith,meaning,purpose,peace",Ishmael: An Adventure of the Mind and Spirit by Daniel Quinn,4.2
+0425115801,Lightning,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",Lightning by Dean R. Koontz,4.3
+0671024248,Hearts In Atlantis,Stephen King,Fiction,"life,story,journey,discovery,humanity",Hearts In Atlantis by Stephen King,3.7
+0451151259,Eyes of the Dragon,Stephen King,Fantasy,"magic,adventure,fantasy,quest,power",Eyes of the Dragon by Stephen King,4.3
+0375727132,The Dive From Clausen's Pier : A Novel (Vintage Contemporaries (Paperback)),ANN PACKER,Fiction,"life,story,journey,discovery,humanity",The Dive From Clausen's Pier : A Novel (Vintage Contemporaries (Paperback)) by ANN PACKER,3.7
+0446607711,The Simple Truth,David Baldacci,Fiction,"life,story,journey,discovery,humanity",The Simple Truth by David Baldacci,3.5
+038548951X,Sister of My Heart,Chitra Banerjee Divakaruni,Romance,"love,romance,relationships,emotion",Sister of My Heart by Chitra Banerjee Divakaruni,4.5
+0140254544,A Light in the Window (The Mitford Years),Jan Karon,Fiction,"life,story,journey,discovery,humanity",A Light in the Window (The Mitford Years) by Jan Karon,4.2
+0451524934,1984,George Orwell,Fiction,"life,story,journey,discovery,humanity",1984 by George Orwell,4.4
+0345392825,Reviving Ophelia: Saving the Selves of Adolescent Girls (Ballantine Reader's Circle),Mary Pipher,Fiction,"life,story,journey,discovery,humanity",Reviving Ophelia: Saving the Selves of Adolescent Girls (Ballantine Reader's Circle) by Mary Pipher,3.8
+0345350499,The Mists of Avalon,MARION ZIMMER BRADLEY,Fiction,"life,story,journey,discovery,humanity",The Mists of Avalon by MARION ZIMMER BRADLEY,4.3
+0312976275,Hot Six : A Stephanie Plum Novel (A Stephanie Plum Novel),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Hot Six : A Stephanie Plum Novel (A Stephanie Plum Novel) by Janet Evanovich,4.0
+0767905180,Jemima J: A Novel About Ugly Ducklings and Swans,Jane Green,Fiction,"life,story,journey,discovery,humanity",Jemima J: A Novel About Ugly Ducklings and Swans by Jane Green,3.8
+059035342X,Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback)),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback)) by J. K. Rowling,4.5
+038082101X,Daughter of Fortune: A Novel,Isabel Allende,Fiction,"life,story,journey,discovery,humanity",Daughter of Fortune: A Novel by Isabel Allende,4.0
+0671708635,Seven Habits Of Highly Effective People,Stephen R. Covey,Fiction,"life,story,journey,discovery,humanity",Seven Habits Of Highly Effective People by Stephen R. Covey,3.4
+0345342968,Fahrenheit 451,RAY BRADBURY,Fiction,"life,story,journey,discovery,humanity",Fahrenheit 451 by RAY BRADBURY,4.4
+0812550706,Ender's Game (Ender Wiggins Saga (Paperback)),Orson Scott Card,Fiction,"life,story,journey,discovery,humanity",Ender's Game (Ender Wiggins Saga (Paperback)) by Orson Scott Card,4.5
+0345378482,The Andromeda Strain,MICHAEL CRICHTON,Fiction,"life,story,journey,discovery,humanity",The Andromeda Strain by MICHAEL CRICHTON,3.8
+0671758896,"Loves Music, Loves to Dance",Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity","Loves Music, Loves to Dance by Mary Higgins Clark",3.9
+0451177096,Dolores Claiborne,Stephen King,Fiction,"life,story,journey,discovery,humanity",Dolores Claiborne by Stephen King,3.9
+0812511816,"The Eye of the World (The Wheel of Time, Book 1)",Robert Jordan,Fiction,"life,story,journey,discovery,humanity","The Eye of the World (The Wheel of Time, Book 1) by Robert Jordan",4.0
+0425122123,Clear and Present Danger (Jack Ryan Novels),Tom Clancy,Thriller,"suspense,danger,adventure,survival",Clear and Present Danger (Jack Ryan Novels) by Tom Clancy,4.1
+0385484518,"Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson",MITCH ALBOM,Memoir,"memoir,life,identity,resilience,growth","Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson by MITCH ALBOM",4.4
+0060922532,Pigs in Heaven,Barbara Kingsolver,Fiction,"life,story,journey,discovery,humanity",Pigs in Heaven by Barbara Kingsolver,3.9
+0440236703,Tell No One,Harlan Coben,Fiction,"life,story,journey,discovery,humanity",Tell No One by Harlan Coben,4.1
+1592400876,"Eats, Shoots & Leaves: The Zero Tolerance Approach to Punctuation",Lynne Truss,Fiction,"life,story,journey,discovery,humanity","Eats, Shoots & Leaves: The Zero Tolerance Approach to Punctuation by Lynne Truss",4.4
+0553274503,Flowers for Algernon (Bantam Classic),DANIEL KEYES,Fiction,"life,story,journey,discovery,humanity",Flowers for Algernon (Bantam Classic) by DANIEL KEYES,4.2
+0413537900,The Secret Diary of Adrian Mole Aged 13 3/4,Sue Townsend,Memoir,"memoir,life,identity,resilience,growth",The Secret Diary of Adrian Mole Aged 13 3/4 by Sue Townsend,4.1
+0425133540,The Sum of All Fears (Jack Ryan Novels),Tom Clancy,Fiction,"life,story,journey,discovery,humanity",The Sum of All Fears (Jack Ryan Novels) by Tom Clancy,3.7
+0345384350,Icebound,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",Icebound by Dean R. Koontz,3.9
+0425175405,Black Notice,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",Black Notice by Patricia Daniels Cornwell,3.8
+0380731851,Mystic River,Dennis Lehane,Fiction,"life,story,journey,discovery,humanity",Mystic River by Dennis Lehane,3.9
+0684862719,Pay It Forward: A Novel,Catherine Ryan Hyde,Fiction,"life,story,journey,discovery,humanity",Pay It Forward: A Novel by Catherine Ryan Hyde,4.0
+0446604666,Sick Puppy,Carl Hiaasen,Fiction,"life,story,journey,discovery,humanity",Sick Puppy by Carl Hiaasen,4.0
+0061015725,Prey,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",Prey by Michael Crichton,3.8
+0553579754,Fear Nothing,DEAN KOONTZ,Horror,"fear,darkness,suspense,supernatural",Fear Nothing by DEAN KOONTZ,4.1
+0449221482,J Is for Judgment,Sue Grafton,Fiction,"life,story,journey,discovery,humanity",J Is for Judgment by Sue Grafton,4.1
+0553279912,A Is for Alibi (Kinsey Millhone Mysteries (Paperback)),SUE GRAFTON,Fiction,"life,story,journey,discovery,humanity",A Is for Alibi (Kinsey Millhone Mysteries (Paperback)) by SUE GRAFTON,3.8
+0345353145,Sphere,MICHAEL CRICHTON,Fiction,"life,story,journey,discovery,humanity",Sphere by MICHAEL CRICHTON,3.8
+0446516538,Slow Waltz in Cedar Bend,Robert James Waller,Fiction,"life,story,journey,discovery,humanity",Slow Waltz in Cedar Bend by Robert James Waller,3.1
+0440214041,The Pelican Brief,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Pelican Brief by John Grisham,3.9
+0679446486,Airframe,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",Airframe by Michael Crichton,4.0
+0140298479,Bridget Jones: The Edge of Reason,Helen Fielding,Fiction,"life,story,journey,discovery,humanity",Bridget Jones: The Edge of Reason by Helen Fielding,3.9
+0786889020,Don't Stand Too Close to a Naked Man,Tim Allen,Fiction,"life,story,journey,discovery,humanity",Don't Stand Too Close to a Naked Man by Tim Allen,3.6
+0140386645,The Westing Game (Now in Speak!),Ellen Raskin,Fiction,"life,story,journey,discovery,humanity",The Westing Game (Now in Speak!) by Ellen Raskin,4.0
+0345337662,Interview with the Vampire,Anne Rice,Fiction,"life,story,journey,discovery,humanity",Interview with the Vampire by Anne Rice,3.8
+0345351525,The Queen of the Damned (Vampire Chronicles (Paperback)),Anne Rice,Fiction,"life,story,journey,discovery,humanity",The Queen of the Damned (Vampire Chronicles (Paperback)) by Anne Rice,3.8
+0449003787,"\""O\"" Is for Outlaw",SUE GRAFTON,Fiction,"life,story,journey,discovery,humanity","\""O\"" Is for Outlaw by SUE GRAFTON",3.8
+0385265700,The Book of Ruth (Oprah's Book Club (Paperback)),Jane Hamilton,Fiction,"life,story,journey,discovery,humanity",The Book of Ruth (Oprah's Book Club (Paperback)) by Jane Hamilton,3.7
+1573229326,How to Be Good,Nick Hornby,Fiction,"life,story,journey,discovery,humanity",How to Be Good by Nick Hornby,3.4
+0385424736,The Rainmaker,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Rainmaker by John Grisham,4.0
+0671617028,The Color Purple,Alice Walker,Fiction,"life,story,journey,discovery,humanity",The Color Purple by Alice Walker,4.4
+0446605239,The Notebook,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",The Notebook by Nicholas Sparks,3.9
+0553295977,Carnal Innocence,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Carnal Innocence by Nora Roberts,4.0
+0743224574,A Beautiful Mind: The Life of Mathematical Genius and Nobel Laureate John Nash,Sylvia Nasar,Memoir,"memoir,life,identity,resilience,growth",A Beautiful Mind: The Life of Mathematical Genius and Nobel Laureate John Nash by Sylvia Nasar,3.9
+0671004549,You Belong To Me,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",You Belong To Me by Mary Higgins Clark,3.9
+0802139256,Peace Like a River,Leif Enger,Fiction,"life,story,journey,discovery,humanity",Peace Like a River by Leif Enger,4.0
+055356160X,Cry Wolf,TAMI HOAG,Fiction,"life,story,journey,discovery,humanity",Cry Wolf by TAMI HOAG,3.9
+0515120618,Montana Sky,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Montana Sky by Nora Roberts,4.0
+0385335830,Diary of a Mad Bride (Summer Display Opportunity),Laura Wolf,Memoir,"memoir,life,identity,resilience,growth",Diary of a Mad Bride (Summer Display Opportunity) by Laura Wolf,3.8
+0515130389,Carolina Moon,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Carolina Moon by Nora Roberts,3.7
+0142004235,East of Eden (Oprah's Book Club),John Steinbeck,Fiction,"life,story,journey,discovery,humanity",East of Eden (Oprah's Book Club) by John Steinbeck,4.4
+0515135062,Three Fates,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Three Fates by Nora Roberts,3.9
+0743412028,Pay It Forward,Catherine Ryan Hyde,Fiction,"life,story,journey,discovery,humanity",Pay It Forward by Catherine Ryan Hyde,3.7
+0425169693,Here on Earth (Oprah's Book Club),Alice Hoffman,Fiction,"life,story,journey,discovery,humanity",Here on Earth (Oprah's Book Club) by Alice Hoffman,3.9
+0452269571,Bastard Out of Carolina,Dorothy Allison,Fiction,"life,story,journey,discovery,humanity",Bastard Out of Carolina by Dorothy Allison,4.1
+051513287X,Face the Fire (Three Sisters Island Trilogy),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Face the Fire (Three Sisters Island Trilogy) by Nora Roberts,4.0
+0618002219,The Hobbit: or There and Back Again,J.R.R. Tolkien,Fiction,"life,story,journey,discovery,humanity",The Hobbit: or There and Back Again by J.R.R. Tolkien,4.5
+0060392452,Stupid White Men ...and Other Sorry Excuses for the State of the Nation!,Michael Moore,Fiction,"life,story,journey,discovery,humanity",Stupid White Men ...and Other Sorry Excuses for the State of the Nation! by Michael Moore,4.1
+0590353403,Harry Potter and the Sorcerer's Stone (Book 1),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Sorcerer's Stone (Book 1) by J. K. Rowling,4.5
+0312263120,Digital Fortress : A Thriller,Dan Brown,Thriller,"suspense,danger,adventure,survival",Digital Fortress : A Thriller by Dan Brown,3.6
+0446532231,"Dude, Where's My Country?",Michael Moore,Fiction,"life,story,journey,discovery,humanity","Dude, Where's My Country? by Michael Moore",4.2
+0385498802,Bee Season: A Novel,Myla Goldberg,Fiction,"life,story,journey,discovery,humanity",Bee Season: A Novel by Myla Goldberg,3.9
+0312291639,The Nanny Diaries: A Novel,Emma McLaughlin,Fiction,"life,story,journey,discovery,humanity",The Nanny Diaries: A Novel by Emma McLaughlin,3.6
+0684874350,ANGELA'S ASHES,Frank McCourt,Fiction,"life,story,journey,discovery,humanity",ANGELA'S ASHES by Frank McCourt,4.2
+0446611212,Violets Are Blue,James Patterson,Fiction,"life,story,journey,discovery,humanity",Violets Are Blue by James Patterson,4.0
+0316168688,The Dogs of Babel (Today Show Book Club #12),Carolyn Parkhurst,Fiction,"life,story,journey,discovery,humanity",The Dogs of Babel (Today Show Book Club #12) by Carolyn Parkhurst,4.4
+0440241537,The King of Torts,JOHN GRISHAM,Fiction,"life,story,journey,discovery,humanity",The King of Torts by JOHN GRISHAM,3.7
+034538475X,The Tale of the Body Thief (Vampire Chronicles (Paperback)),Anne Rice,Fiction,"life,story,journey,discovery,humanity",The Tale of the Body Thief (Vampire Chronicles (Paperback)) by Anne Rice,3.6
+0425181103,Phantoms,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",Phantoms by Dean R. Koontz,4.1
+0380718340,Cruel & Unusual (Kay Scarpetta Mysteries (Paperback)),Patricia D. Cornwell,Fiction,"life,story,journey,discovery,humanity",Cruel & Unusual (Kay Scarpetta Mysteries (Paperback)) by Patricia D. Cornwell,4.1
+0451153553,Misery,Stephen King,Fiction,"life,story,journey,discovery,humanity",Misery by Stephen King,4.0
+0142001805,The Eyre Affair: A Novel,Jasper Fforde,Fiction,"life,story,journey,discovery,humanity",The Eyre Affair: A Novel by Jasper Fforde,4.3
+0425147622,The Body Farm,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",The Body Farm by Patricia Daniels Cornwell,4.1
+0553582763,By the Light of the Moon,DEAN KOONTZ,Fiction,"life,story,journey,discovery,humanity",By the Light of the Moon by DEAN KOONTZ,4.1
+0345384369,Intensity,DEAN KOONTZ,Fiction,"life,story,journey,discovery,humanity",Intensity by DEAN KOONTZ,4.0
+0425144429,Mr. Murder,Dean R. Koontz,Mystery,"mystery,crime,suspense,detective",Mr. Murder by Dean R. Koontz,3.6
+0312305060,The Hours: A Novel,Michael Cunningham,Fiction,"life,story,journey,discovery,humanity",The Hours: A Novel by Michael Cunningham,3.9
+0399146431,The Bonesetter's Daughter,Amy Tan,Fiction,"life,story,journey,discovery,humanity",The Bonesetter's Daughter by Amy Tan,4.1
+0385482388,The Mistress of Spices,Chitra Banerjee Divakaruni,Fiction,"life,story,journey,discovery,humanity",The Mistress of Spices by Chitra Banerjee Divakaruni,3.6
+0375706771,Midwives: A Novel,Chris Bohjalian,Fiction,"life,story,journey,discovery,humanity",Midwives: A Novel by Chris Bohjalian,4.0
+0452260116,Song of Solomon (Oprah's Book Club (Paperback)),Toni Morrison,Fiction,"life,story,journey,discovery,humanity",Song of Solomon (Oprah's Book Club (Paperback)) by Toni Morrison,3.8
+0451191145,Atlas Shrugged,Ayn Rand,Fiction,"life,story,journey,discovery,humanity",Atlas Shrugged by Ayn Rand,4.0
+0060987561,I Know This Much Is True,Wally Lamb,Memoir,"memoir,life,identity,resilience,growth",I Know This Much Is True by Wally Lamb,4.2
+0312265867,To the Nines: A Stephanie Plum Novel,Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",To the Nines: A Stephanie Plum Novel by Janet Evanovich,4.3
+0786881852,Don't Sweat the Small Stuff and It's All Small Stuff : Simple Ways to Keep the Little Things from Taking Over Your Life (Don't Sweat the Small Stuff Series),Richard Carlson,Memoir,"memoir,life,identity,resilience,growth",Don't Sweat the Small Stuff and It's All Small Stuff : Simple Ways to Keep the Little Things from Taking Over Your Life (Don't Sweat the Small Stuff Series) by Richard Carlson,3.8
+0345413873,Monster : A Novel (Alex Delaware Novels (Paperback)),JONATHAN KELLERMAN,Fiction,"life,story,journey,discovery,humanity",Monster : A Novel (Alex Delaware Novels (Paperback)) by JONATHAN KELLERMAN,3.6
+1559029838,Call of the Wild,Jack London,Fiction,"life,story,journey,discovery,humanity",Call of the Wild by Jack London,4.1
+0679746048,"Girl, Interrupted",SUSANNA KAYSEN,Fiction,"life,story,journey,discovery,humanity","Girl, Interrupted by SUSANNA KAYSEN",3.8
+0446610100,Wish You Well,David Baldacci,Fiction,"life,story,journey,discovery,humanity",Wish You Well by David Baldacci,4.1
+0312966970,Four To Score (A Stephanie Plum Novel),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Four To Score (A Stephanie Plum Novel) by Janet Evanovich,4.1
+051512317X,Rising Tides,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Rising Tides by Nora Roberts,3.9
+0380002930,Watership Down,Richard Adams,Fiction,"life,story,journey,discovery,humanity",Watership Down by Richard Adams,4.4
+0312971346,High Five (A Stephanie Plum Novel),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",High Five (A Stephanie Plum Novel) by Janet Evanovich,4.3
+0060958022,Five Quarters of the Orange,Joanne Harris,Fiction,"life,story,journey,discovery,humanity",Five Quarters of the Orange by Joanne Harris,3.9
+0385474016,"Like Water for Chocolate: A Novel in Monthly Installments With Recipes, Romances and Home Remedies",Laura Esquivel,Fiction,"life,story,journey,discovery,humanity","Like Water for Chocolate: A Novel in Monthly Installments With Recipes, Romances and Home Remedies by Laura Esquivel",3.7
+0375412824,The Dive From Clausen's Pier (Alex Awards),ANN PACKER,Fiction,"life,story,journey,discovery,humanity",The Dive From Clausen's Pier (Alex Awards) by ANN PACKER,4.0
+1558743669,"A Child Called \""It\"": One Child's Courage to Survive",Dave Pelzer,YA/Family,"family,growth,coming-of-age,identity","A Child Called \""It\"": One Child's Courage to Survive by Dave Pelzer",3.9
+0553582135,Final Target,Iris Johansen,Fiction,"life,story,journey,discovery,humanity",Final Target by Iris Johansen,3.7
+0767907817,Bookends : A Novel,Jane Green,Fiction,"life,story,journey,discovery,humanity",Bookends : A Novel by Jane Green,3.8
+0385720106,A Map of the World,Jane Hamilton,Fiction,"life,story,journey,discovery,humanity",A Map of the World by Jane Hamilton,3.5
+0553208845,Siddhartha,Hermann Hesse,Fiction,"life,story,journey,discovery,humanity",Siddhartha by Hermann Hesse,4.4
+0842329218,Tribulation Force: The Continuing Drama of Those Left Behind (Left Behind No. 2),Tim LaHaye,Fiction,"life,story,journey,discovery,humanity",Tribulation Force: The Continuing Drama of Those Left Behind (Left Behind No. 2) by Tim LaHaye,4.2
+0440221471,The Runaway Jury,JOHN GRISHAM,Fiction,"life,story,journey,discovery,humanity",The Runaway Jury by JOHN GRISHAM,3.9
+0425143325,Without Remorse,Tom Clancy,Fiction,"life,story,journey,discovery,humanity",Without Remorse by Tom Clancy,3.9
+0425180964,The Bear and the Dragon (Jack Ryan Novels),Tom Clancy,Fantasy,"magic,adventure,fantasy,quest,power",The Bear and the Dragon (Jack Ryan Novels) by Tom Clancy,4.1
+0060502258,The Divine Secrets of the Ya-Ya Sisterhood: A Novel,Rebecca Wells,Fiction,"life,story,journey,discovery,humanity",The Divine Secrets of the Ya-Ya Sisterhood: A Novel by Rebecca Wells,3.9
+0061020710,The Color of Magic,Terry Pratchett,Fantasy,"magic,adventure,fantasy,quest,power",The Color of Magic by Terry Pratchett,3.6
+0345339681,The Hobbit : The Enchanting Prelude to The Lord of the Rings,J.R.R. TOLKIEN,Fiction,"life,story,journey,discovery,humanity",The Hobbit : The Enchanting Prelude to The Lord of the Rings by J.R.R. TOLKIEN,4.3
+0385199570,The Stand (The Complete and Uncut Edition),Stephen King,Fiction,"life,story,journey,discovery,humanity",The Stand (The Complete and Uncut Edition) by Stephen King,4.3
+1558744630,Chicken Soup for the Teenage Soul (Chicken Soup for the Soul),Jack Canfield,Spirituality,"spirituality,faith,meaning,purpose,peace",Chicken Soup for the Teenage Soul (Chicken Soup for the Soul) by Jack Canfield,3.9
+055357230X,The Clinic (Alex Delaware Novels (Paperback)),Jonathan Kellerman,Fiction,"life,story,journey,discovery,humanity",The Clinic (Alex Delaware Novels (Paperback)) by Jonathan Kellerman,3.7
+0671004107,Contact,Carl Sagan,Fiction,"life,story,journey,discovery,humanity",Contact by Carl Sagan,4.0
+0439064872,Harry Potter and the Chamber of Secrets (Book 2),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Chamber of Secrets (Book 2) by J. K. Rowling,4.4
+0679751602,Mama Makes Up Her Mind: And Other Dangers of Southern Living,Bailey White,Self-Help,"growth,productivity,success,mindset,change",Mama Makes Up Her Mind: And Other Dangers of Southern Living by Bailey White,3.8
+0553211404,Jane Eyre (Bantam Classics),Charlotte Bronte,Fiction,"life,story,journey,discovery,humanity",Jane Eyre (Bantam Classics) by Charlotte Bronte,4.3
+1400032717,The Curious Incident of the Dog in the Night-Time (Vintage Contemporaries),Mark Haddon,Fiction,"life,story,journey,discovery,humanity",The Curious Incident of the Dog in the Night-Time (Vintage Contemporaries) by Mark Haddon,4.4
+0061097314,The Bean Trees,Barbara Kingsolver,Fiction,"life,story,journey,discovery,humanity",The Bean Trees by Barbara Kingsolver,4.0
+0140119906,Love in the Time of Cholera (Penguin Great Books of the 20th Century),Gabriel Garcia Marquez,Romance,"love,romance,relationships,emotion",Love in the Time of Cholera (Penguin Great Books of the 20th Century) by Gabriel Garcia Marquez,4.1
+0684857820,Lucky,Alice Sebold,Fiction,"life,story,journey,discovery,humanity",Lucky by Alice Sebold,4.1
+037541309X,Balzac and the Little Chinese Seamstress,Dai Sijie,Fiction,"life,story,journey,discovery,humanity",Balzac and the Little Chinese Seamstress by Dai Sijie,4.1
+0553579606,Ashes to Ashes,TAMI HOAG,Fiction,"life,story,journey,discovery,humanity",Ashes to Ashes by TAMI HOAG,3.6
+006099486X,"The Professor and the Madman: A Tale of Murder, Insanity, and the Making of The Oxford English Dictionary",Simon Winchester,Mystery,"mystery,crime,suspense,detective","The Professor and the Madman: A Tale of Murder, Insanity, and the Making of The Oxford English Dictionary by Simon Winchester",4.0
+0670855030,Insomnia,Stephen King,Fiction,"life,story,journey,discovery,humanity",Insomnia by Stephen King,4.2
+0671250671,"ROAD LESS TRAVELED : A New Psychology of Love, Traditional Values, and Spritual Growth (Touchstone Books (Paperback))",M. Scott Peck,Romance,"love,romance,relationships,emotion","ROAD LESS TRAVELED : A New Psychology of Love, Traditional Values, and Spritual Growth (Touchstone Books (Paperback)) by M. Scott Peck",3.7
+0811802981,The Golden Mean: In Which the Extraordinary Correspondence of Griffin & Sabine Concludes,Nick Bantock,Fiction,"life,story,journey,discovery,humanity",The Golden Mean: In Which the Extraordinary Correspondence of Griffin & Sabine Concludes by Nick Bantock,4.5
+0553289411,The Plains of Passage (Earth's Children (Paperback)),JEAN M. AUEL,Fiction,"life,story,journey,discovery,humanity",The Plains of Passage (Earth's Children (Paperback)) by JEAN M. AUEL,3.8
+0345447840,The Surgeon,TESS GERRITSEN,Fiction,"life,story,journey,discovery,humanity",The Surgeon by TESS GERRITSEN,3.8
+044661193X,Basket Case,Carl Hiaasen,Fiction,"life,story,journey,discovery,humanity",Basket Case by Carl Hiaasen,3.9
+0446359866,Presumed Innocent,Scott Turow,Fiction,"life,story,journey,discovery,humanity",Presumed Innocent by Scott Turow,3.8
+0446602612,The Poet,Michael Connelly,Fiction,"life,story,journey,discovery,humanity",The Poet by Michael Connelly,4.1
+0446612790,2nd Chance,James Patterson,Fiction,"life,story,journey,discovery,humanity",2nd Chance by James Patterson,3.9
+0553213148,Anne of Avonlea (Anne of Green Gables Novels (Paperback)),L.M. MONTGOMERY,Fiction,"life,story,journey,discovery,humanity",Anne of Avonlea (Anne of Green Gables Novels (Paperback)) by L.M. MONTGOMERY,4.4
+002542730X,Politically Correct Bedtime Stories: Modern Tales for Our Life and Times,James Finn Garner,Memoir,"memoir,life,identity,resilience,growth",Politically Correct Bedtime Stories: Modern Tales for Our Life and Times by James Finn Garner,3.8
+0451203895,4 Blondes,Candace Bushnell,Fiction,"life,story,journey,discovery,humanity",4 Blondes by Candace Bushnell,2.8
+0553272535,Night,Elie Wiesel,Fiction,"life,story,journey,discovery,humanity",Night by Elie Wiesel,4.3
+039480001X,The Cat in the Hat,Dr. Seuss,Fiction,"life,story,journey,discovery,humanity",The Cat in the Hat by Dr. Seuss,4.6
+068484477X,STONES FROM THE RIVER,Ursula Hegi,Fiction,"life,story,journey,discovery,humanity",STONES FROM THE RIVER by Ursula Hegi,4.1
+0684853515,Hearts In Atlantis : New Fiction,Stephen King,Fiction,"life,story,journey,discovery,humanity",Hearts In Atlantis : New Fiction by Stephen King,4.1
+0375504397,Black House,Stephen King,Fiction,"life,story,journey,discovery,humanity",Black House by Stephen King,4.0
+0452283205,Falling Angels,Tracy Chevalier,Fiction,"life,story,journey,discovery,humanity",Falling Angels by Tracy Chevalier,3.5
+0316779237,Holidays on Ice : Stories,David Sedaris,Fiction,"life,story,journey,discovery,humanity",Holidays on Ice : Stories by David Sedaris,3.8
+0875421180,Wicca: A Guide for the Solitary Practitioner,Scott Cunningham,Fiction,"life,story,journey,discovery,humanity",Wicca: A Guide for the Solitary Practitioner by Scott Cunningham,4.1
+0553250531,The Valley of Horses,JEAN M. AUEL,Fiction,"life,story,journey,discovery,humanity",The Valley of Horses by JEAN M. AUEL,4.0
+0440213525,The Client,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Client by John Grisham,3.8
+0451188462,Desperation,Stephen King,Fiction,"life,story,journey,discovery,humanity",Desperation by Stephen King,3.8
+0439136350,Harry Potter and the Prisoner of Azkaban (Book 3),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Prisoner of Azkaban (Book 3) by J. K. Rowling,4.6
+0064400557,Charlotte's Web (Trophy Newbery),E. B. White,Fiction,"life,story,journey,discovery,humanity",Charlotte's Web (Trophy Newbery) by E. B. White,4.6
+0671867172,The Lottery Winner : Alvirah And Willy Stories,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",The Lottery Winner : Alvirah And Willy Stories by Mary Higgins Clark,3.6
+0446527785,A Bend in the Road,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",A Bend in the Road by Nicholas Sparks,3.6
+0553262505,"A Wizard of Earthsea (Earthsea Trilogy, Book 1)",URSULA K. LE GUIN,Fantasy,"magic,adventure,fantasy,quest,power","A Wizard of Earthsea (Earthsea Trilogy, Book 1) by URSULA K. LE GUIN",3.8
+0316096199,Lucky : A Memoir,Alice Sebold,Memoir,"memoir,life,identity,resilience,growth",Lucky : A Memoir by Alice Sebold,4.2
+0440200989,Weep No More My Lady,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",Weep No More My Lady by Mary Higgins Clark,3.7
+0671568175,Let Me Call You Sweetheart,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",Let Me Call You Sweetheart by Mary Higgins Clark,3.6
+0449221504,K Is for Killer (Kinsey Millhone Mysteries (Paperback)),Sue Grafton,Mystery,"mystery,crime,suspense,detective",K Is for Killer (Kinsey Millhone Mysteries (Paperback)) by Sue Grafton,3.8
+0446607193,Unspeakable,Sandra Brown,Fiction,"life,story,journey,discovery,humanity",Unspeakable by Sandra Brown,3.9
+0373484003,Irish Hearts,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Irish Hearts by Nora Roberts,4.0
+0767905385,Catch Me If You Can: The True Story of a Real Fake,Stan Redding,Memoir,"memoir,life,identity,resilience,growth",Catch Me If You Can: The True Story of a Real Fake by Stan Redding,3.9
+0440211263,Circle of Friends,Maeve Binchy,Fiction,"life,story,journey,discovery,humanity",Circle of Friends by Maeve Binchy,4.1
+0553260111,The Bourne Identity,Robert Ludlum,Fiction,"life,story,journey,discovery,humanity",The Bourne Identity by Robert Ludlum,3.9
+0767900383,Under the Tuscan Sun,Frances Mayes,Fiction,"life,story,journey,discovery,humanity",Under the Tuscan Sun by Frances Mayes,3.6
+0684865742,Tis: A Memoir,Frank McCourt,Memoir,"memoir,life,identity,resilience,growth",Tis: A Memoir by Frank McCourt,3.8
+0671034006,Heartbreaker,Julie Garwood,Fiction,"life,story,journey,discovery,humanity",Heartbreaker by Julie Garwood,4.0
+0425116840,The Cardinal of the Kremlin (Jack Ryan Novels),Tom Clancy,Fiction,"life,story,journey,discovery,humanity",The Cardinal of the Kremlin (Jack Ryan Novels) by Tom Clancy,3.8
+074343627X,Dreamcatcher,Stephen King,Fiction,"life,story,journey,discovery,humanity",Dreamcatcher by Stephen King,3.9
+067102423X,Bag of Bones,Stephen King,Fiction,"life,story,journey,discovery,humanity",Bag of Bones by Stephen King,4.0
+0399143947,Point of Origin,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",Point of Origin by Patricia Daniels Cornwell,4.0
+0553268880,The Prince of Tides,Pat Conroy,Fiction,"life,story,journey,discovery,humanity",The Prince of Tides by Pat Conroy,4.1
+0316666009,1st to Die: A Novel,James Patterson,Fiction,"life,story,journey,discovery,humanity",1st to Die: A Novel by James Patterson,3.7
+0446611867,A Bend in the Road,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",A Bend in the Road by Nicholas Sparks,3.8
+0385336179,Shopaholic Ties the Knot,Sophie Kinsella,Fiction,"life,story,journey,discovery,humanity",Shopaholic Ties the Knot by Sophie Kinsella,4.0
+0553582755,One Door Away from Heaven,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",One Door Away from Heaven by Dean R. Koontz,3.9
+0452268060,How the Garcia Girls Lost Their Accents (Plume Contemporary Fiction),Julia Alvarez,Fiction,"life,story,journey,discovery,humanity",How the Garcia Girls Lost Their Accents (Plume Contemporary Fiction) by Julia Alvarez,3.8
+044651652X,The Bridges of Madison County,Robert James Waller,Fiction,"life,story,journey,discovery,humanity",The Bridges of Madison County by Robert James Waller,3.6
+0142002267,"Word Freak: Heartbreak, Triumph, Genius, and Obsession in the World of Competitive Scrabble Players",Stefan Fatsis,Fiction,"life,story,journey,discovery,humanity","Word Freak: Heartbreak, Triumph, Genius, and Obsession in the World of Competitive Scrabble Players by Stefan Fatsis",4.2
+0842329277,"Assassins: Assignment: Jerusalem, Target: Antichrist (Left Behind No. 6)",Tim Lahaye,Fiction,"life,story,journey,discovery,humanity","Assassins: Assignment: Jerusalem, Target: Antichrist (Left Behind No. 6) by Tim Lahaye",4.0
+0440439884,Island of the Blue Dolphins,SCOTT O'DELL,Fiction,"life,story,journey,discovery,humanity",Island of the Blue Dolphins by SCOTT O'DELL,4.1
+0345339738,"The Return of the King (The Lord of the Rings, Part 3)",J.R.R. TOLKIEN,Fiction,"life,story,journey,discovery,humanity","The Return of the King (The Lord of the Rings, Part 3) by J.R.R. TOLKIEN",4.7
+0446679593,Suzanne's Diary for Nicholas,James Patterson,Memoir,"memoir,life,identity,resilience,growth",Suzanne's Diary for Nicholas by James Patterson,3.8
+0886773520,"Magic's Pawn (The Last Herald-Mage Series, Book 1)",Mercedes Lackey,Fantasy,"magic,adventure,fantasy,quest,power","Magic's Pawn (The Last Herald-Mage Series, Book 1) by Mercedes Lackey",4.2
+1573225517,High Fidelity,Nick Hornby,Fiction,"life,story,journey,discovery,humanity",High Fidelity by Nick Hornby,4.2
+0802130208,A Confederacy of Dunces (Evergreen Book),John Kennedy Toole,Fiction,"life,story,journey,discovery,humanity",A Confederacy of Dunces (Evergreen Book) by John Kennedy Toole,3.7
+0156628708,Mrs Dalloway,Virginia Woolf,Fiction,"life,story,journey,discovery,humanity",Mrs Dalloway by Virginia Woolf,3.7
+0060199652,Prodigal Summer,Barbara Kingsolver,Fiction,"life,story,journey,discovery,humanity",Prodigal Summer by Barbara Kingsolver,4.3
+034541389X,Flesh and Blood,Jonathan Kellerman,Fiction,"life,story,journey,discovery,humanity",Flesh and Blood by Jonathan Kellerman,3.9
+0316284955,White Oleander : A Novel (Oprah's Book Club),Janet Fitch,Fiction,"life,story,journey,discovery,humanity",White Oleander : A Novel (Oprah's Book Club) by Janet Fitch,3.9
+0060987529,Confessions of an Ugly Stepsister : A Novel,Gregory Maguire,Fiction,"life,story,journey,discovery,humanity",Confessions of an Ugly Stepsister : A Novel by Gregory Maguire,3.8
+0375703764,House of Leaves,Mark Z. Danielewski,Fiction,"life,story,journey,discovery,humanity",House of Leaves by Mark Z. Danielewski,4.2
+0553277472,Zen and the Art of Motorcycle Maintenance: An Inquiry into Values,ROBERT PIRSIG,Fiction,"life,story,journey,discovery,humanity",Zen and the Art of Motorcycle Maintenance: An Inquiry into Values by ROBERT PIRSIG,4.1
+0553560247,Dying for Chocolate (Culinary Mysteries (Paperback)),DIANE MOTT DAVIDSON,Fiction,"life,story,journey,discovery,humanity",Dying for Chocolate (Culinary Mysteries (Paperback)) by DIANE MOTT DAVIDSON,3.9
+067088300X,The Girls' Guide to Hunting and Fishing,Melissa Bank,Fiction,"life,story,journey,discovery,humanity",The Girls' Guide to Hunting and Fishing by Melissa Bank,3.5
+0375727345,House of Sand and Fog,Andre Dubus III,Fiction,"life,story,journey,discovery,humanity",House of Sand and Fog by Andre Dubus III,3.7
+0446608890,Saving Faith,David Baldacci,Spirituality,"spirituality,faith,meaning,purpose,peace",Saving Faith by David Baldacci,3.8
+0312983298,Full Speed (Janet Evanovich's Full Series),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Full Speed (Janet Evanovich's Full Series) by Janet Evanovich,3.4
+0743437640,The Mulberry Tree,Jude Deveraux,Fiction,"life,story,journey,discovery,humanity",The Mulberry Tree by Jude Deveraux,3.9
+0375703861,White Teeth: A Novel,Zadie Smith,Fiction,"life,story,journey,discovery,humanity",White Teeth: A Novel by Zadie Smith,3.9
+0425152251,Sophie's World: A Novel About the History of Philosophy,Jostein Gaarder,History,"history,war,society,power,change",Sophie's World: A Novel About the History of Philosophy by Jostein Gaarder,3.9
+0312924585,Silence of the Lambs,Thomas Harris,Fiction,"life,story,journey,discovery,humanity",Silence of the Lambs by Thomas Harris,4.3
+0385479565,The Hot Zone,Richard Preston,Fiction,"life,story,journey,discovery,humanity",The Hot Zone by Richard Preston,4.1
+0312274920,Round Ireland With a Fridge,Tony Hawks,Fiction,"life,story,journey,discovery,humanity",Round Ireland With a Fridge by Tony Hawks,3.9
+0345409671,"Memnoch the Devil (Vampire Chronicles, No 5)",Anne Rice,Fiction,"life,story,journey,discovery,humanity","Memnoch the Devil (Vampire Chronicles, No 5) by Anne Rice",3.8
+0425162443,The Rapture of Canaan,Sheri Reynolds,Fiction,"life,story,journey,discovery,humanity",The Rapture of Canaan by Sheri Reynolds,4.1
+0345423291,What We Keep : A Novel (Ballantine Reader's Circle),Elizabeth Berg,Fiction,"life,story,journey,discovery,humanity",What We Keep : A Novel (Ballantine Reader's Circle) by Elizabeth Berg,4.0
+0515132020,Heaven and Earth (Three Sisters Island Trilogy),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Heaven and Earth (Three Sisters Island Trilogy) by Nora Roberts,4.0
+0515131229,Dance upon the Air (Three Sisters Island Trilogy),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Dance upon the Air (Three Sisters Island Trilogy) by Nora Roberts,4.0
+0446679364,The Future Homemakers of America,Laurie Graham,Sci-Fi,"space,science,future,technology,discovery",The Future Homemakers of America by Laurie Graham,4.0
+038079487X,What Looks Like Crazy On An Ordinary Day,Pearl Cleage,Fiction,"life,story,journey,discovery,humanity",What Looks Like Crazy On An Ordinary Day by Pearl Cleage,3.8
+0684872153,Angela's Ashes (MMP) : A Memoir,Frank McCourt,Memoir,"memoir,life,identity,resilience,growth",Angela's Ashes (MMP) : A Memoir by Frank McCourt,4.0
+0312421273,The Corrections: A Novel,Jonathan Franzen,Fiction,"life,story,journey,discovery,humanity",The Corrections: A Novel by Jonathan Franzen,3.5
+0440241162,Nerd in Shining Armor,Vicki Lewis Thompson,Fiction,"life,story,journey,discovery,humanity",Nerd in Shining Armor by Vicki Lewis Thompson,3.7
+0156007754,Blindness (Harvest Book),Jose Saramago,Fiction,"life,story,journey,discovery,humanity",Blindness (Harvest Book) by Jose Saramago,4.4
+031205436X,Generation X: Tales for an Accelerated Culture,Douglas Coupland,Fiction,"life,story,journey,discovery,humanity",Generation X: Tales for an Accelerated Culture by Douglas Coupland,3.7
+1573228214,High Fidelity,Nick Hornby,Fiction,"life,story,journey,discovery,humanity",High Fidelity by Nick Hornby,3.9
+0064407675,"The Reptile Room (A Series of Unfortunate Events, Book 2)",Lemony Snicket,Fiction,"life,story,journey,discovery,humanity","The Reptile Room (A Series of Unfortunate Events, Book 2) by Lemony Snicket",3.9
+0380977788,Coraline,Neil Gaiman,Fiction,"life,story,journey,discovery,humanity",Coraline by Neil Gaiman,4.2
+0441304834,Guilty Pleasures (Anita Blake Vampire Hunter (Paperback)),Laurell K. Hamilton,Fiction,"life,story,journey,discovery,humanity",Guilty Pleasures (Anita Blake Vampire Hunter (Paperback)) by Laurell K. Hamilton,3.9
+0441790348,Stranger in a Strange Land (Remembering Tomorrow),Robert A. Heinlein,Fiction,"life,story,journey,discovery,humanity",Stranger in a Strange Land (Remembering Tomorrow) by Robert A. Heinlein,4.2
+0553573403,"A Game of Thrones (A Song of Ice and Fire, Book 1)",George R.R. Martin,Fiction,"life,story,journey,discovery,humanity","A Game of Thrones (A Song of Ice and Fire, Book 1) by George R.R. Martin",4.4
+0345391055,Disclosure,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",Disclosure by Michael Crichton,3.7
+0375760911,The Idiot Girls' Action Adventure Club,Laurie Notaro,Fiction,"life,story,journey,discovery,humanity",The Idiot Girls' Action Adventure Club by Laurie Notaro,3.7
+006000438X,The Death of Vishnu: A Novel,Manil Suri,Mystery,"mystery,crime,suspense,detective",The Death of Vishnu: A Novel by Manil Suri,3.8
+0374129983,The Corrections,Jonathan Franzen,Fiction,"life,story,journey,discovery,humanity",The Corrections by Jonathan Franzen,3.9
+0345413350,"The Golden Compass (His Dark Materials, Book 1)",PHILIP PULLMAN,Horror,"fear,darkness,suspense,supernatural","The Golden Compass (His Dark Materials, Book 1) by PHILIP PULLMAN",4.0
+1576737330,The Prayer of Jabez: Breaking Through to the Blessed Life,Bruce Wilkinson,Memoir,"memoir,life,identity,resilience,growth",The Prayer of Jabez: Breaking Through to the Blessed Life by Bruce Wilkinson,3.5
+0316601950,The Pilot's Wife : A Novel,Anita Shreve,Fiction,"life,story,journey,discovery,humanity",The Pilot's Wife : A Novel by Anita Shreve,3.8
+0345314255,Sword of Shannara,Terry Brooks,Fantasy,"magic,adventure,fantasy,quest,power",Sword of Shannara by Terry Brooks,3.8
+1573227331,About a Boy,Nick Hornby,Fiction,"life,story,journey,discovery,humanity",About a Boy by Nick Hornby,3.8
+0066214122,Prey: A Novel,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",Prey: A Novel by Michael Crichton,3.9
+0375502238,Blessings,ANNA QUINDLEN,Fiction,"life,story,journey,discovery,humanity",Blessings by ANNA QUINDLEN,3.9
+0451183665,A Case of Need,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",A Case of Need by Michael Crichton,3.4
+0399150897,Blow Fly: A Scarpetta Novel,Patricia Cornwell,Fiction,"life,story,journey,discovery,humanity",Blow Fly: A Scarpetta Novel by Patricia Cornwell,3.7
+074322535X,Gap Creek: The Story of a Marriage,Robert Morgan,Memoir,"memoir,life,identity,resilience,growth",Gap Creek: The Story of a Marriage by Robert Morgan,3.7
+0373250126,Milkrun,Sarah Mlynowski,Fiction,"life,story,journey,discovery,humanity",Milkrun by Sarah Mlynowski,3.8
+038550926X,The Devil Wears Prada : A Novel,LAUREN WEISBERGER,Fiction,"life,story,journey,discovery,humanity",The Devil Wears Prada : A Novel by LAUREN WEISBERGER,3.6
+0552998001,Blackberry Wine,Joanne Harris,Fiction,"life,story,journey,discovery,humanity",Blackberry Wine by Joanne Harris,3.9
+0671004530,On the Street Where You Live,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",On the Street Where You Live by Mary Higgins Clark,4.0
+0060959037,Prodigal Summer: A Novel,Barbara Kingsolver,Fiction,"life,story,journey,discovery,humanity",Prodigal Summer: A Novel by Barbara Kingsolver,4.2
+014028009X,Bridget Jones's Diary,Helen Fielding,Memoir,"memoir,life,identity,resilience,growth",Bridget Jones's Diary by Helen Fielding,3.8
+0452282829,We Were the Mulvaneys,Joyce Carol Oates,Fiction,"life,story,journey,discovery,humanity",We Were the Mulvaneys by Joyce Carol Oates,3.6
+0060929871,Brave New World,Aldous Huxley,Fiction,"life,story,journey,discovery,humanity",Brave New World by Aldous Huxley,3.9
+0385722206,Balzac and the Little Chinese Seamstress : A Novel,DAI SIJIE,Fiction,"life,story,journey,discovery,humanity",Balzac and the Little Chinese Seamstress : A Novel by DAI SIJIE,4.0
+0142001430,Year of Wonders,Geraldine Brooks,Fiction,"life,story,journey,discovery,humanity",Year of Wonders by Geraldine Brooks,4.2
+080410526X,All I Really Need to Know,ROBERT FULGHUM,Fiction,"life,story,journey,discovery,humanity",All I Really Need to Know by ROBERT FULGHUM,4.1
+031242227X,Running with Scissors: A Memoir,Augusten Burroughs,Memoir,"memoir,life,identity,resilience,growth",Running with Scissors: A Memoir by Augusten Burroughs,3.9
+0440235596,Tara Road,Maeve Binchy,Fiction,"life,story,journey,discovery,humanity",Tara Road by Maeve Binchy,3.9
+0553562738,Doomsday Book,Connie Willis,Fiction,"life,story,journey,discovery,humanity",Doomsday Book by Connie Willis,4.4
+042516098X,Hornet's Nest,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",Hornet's Nest by Patricia Daniels Cornwell,3.3
+0446613266,Four Blind Mice,James Patterson,Fiction,"life,story,journey,discovery,humanity",Four Blind Mice by James Patterson,4.0
+038549081X,The Handmaid's Tale : A Novel,Margaret Atwood,Fiction,"life,story,journey,discovery,humanity",The Handmaid's Tale : A Novel by Margaret Atwood,4.4
+0552998486,Chocolat,Joanne Harris,Fiction,"life,story,journey,discovery,humanity",Chocolat by Joanne Harris,4.0
+0671041789,The Green Mile,Stephen King,Fiction,"life,story,journey,discovery,humanity",The Green Mile by Stephen King,4.2
+0439139597,Harry Potter and the Goblet of Fire (Book 4),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Goblet of Fire (Book 4) by J. K. Rowling,4.7
+0439064864,Harry Potter and the Chamber of Secrets (Book 2),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Chamber of Secrets (Book 2) by J. K. Rowling,4.5
+0440180295,Slaughterhouse Five or the Children's Crusade: A Duty Dance With Death,Kurt Vonnegut,Mystery,"mystery,crime,suspense,detective",Slaughterhouse Five or the Children's Crusade: A Duty Dance With Death by Kurt Vonnegut,4.1
+0449003795,P Is for Peril,Sue Grafton,Fiction,"life,story,journey,discovery,humanity",P Is for Peril by Sue Grafton,3.7
+044651862X,The Celestine Prophecy (Celestine Prophecy),James Redfield,Fiction,"life,story,journey,discovery,humanity",The Celestine Prophecy (Celestine Prophecy) by James Redfield,3.7
+043935806X,Harry Potter and the Order of the Phoenix (Book 5),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Order of the Phoenix (Book 5) by J. K. Rowling,4.5
+0451184963,Insomnia,Stephen King,Fiction,"life,story,journey,discovery,humanity",Insomnia by Stephen King,3.9
+0440220602,The Chamber,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Chamber by John Grisham,3.7
+042513525X,Hideaway,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",Hideaway by Dean R. Koontz,3.8
+0451156609,The Tommyknockers,Stephen King,Fiction,"life,story,journey,discovery,humanity",The Tommyknockers by Stephen King,3.6
+1400031354,Tears of the Giraffe (No.1 Ladies Detective Agency),Alexander McCall Smith,Mystery,"mystery,crime,suspense,detective",Tears of the Giraffe (No.1 Ladies Detective Agency) by Alexander McCall Smith,4.3
+0425170349,Rainbow Six,Tom Clancy,Fiction,"life,story,journey,discovery,humanity",Rainbow Six by Tom Clancy,3.9
+0446608955,A Walk to Remember,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",A Walk to Remember by Nicholas Sparks,3.9
+0440414806,Holes (Yearling Newbery),LOUIS SACHAR,Fiction,"life,story,journey,discovery,humanity",Holes (Yearling Newbery) by LOUIS SACHAR,4.4
+014038572X,The Outsiders (Now in Speak!),S. E. Hinton,Fiction,"life,story,journey,discovery,humanity",The Outsiders (Now in Speak!) by S. E. Hinton,4.1
+0440241073,The Summons,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Summons by John Grisham,3.7
+0451190521,The Green Mile: The Mouse on the Mile (Green Mile Series),Stephen King,Fiction,"life,story,journey,discovery,humanity",The Green Mile: The Mouse on the Mile (Green Mile Series) by Stephen King,3.8
+0451190491,The Two Dead Girls (Green Mile Series),Stephen King,Fiction,"life,story,journey,discovery,humanity",The Two Dead Girls (Green Mile Series) by Stephen King,4.3
+0451167716,The Godfather,Mario Puzo,Fiction,"life,story,journey,discovery,humanity",The Godfather by Mario Puzo,4.3
+0446606324,The Winner,David Baldacci,Fiction,"life,story,journey,discovery,humanity",The Winner by David Baldacci,3.9
+0515132187,The Villa,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",The Villa by Nora Roberts,3.8
+0446670251,The Virgin Suicides,Jeffrey Eugenides,Fiction,"life,story,journey,discovery,humanity",The Virgin Suicides by Jeffrey Eugenides,3.9
+0425154092,From Potter's Field,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",From Potter's Field by Patricia Daniels Cornwell,4.0
+0425179613,It's Not About the Bike: My Journey Back to Life,Lance Armstrong,Memoir,"memoir,life,identity,resilience,growth",It's Not About the Bike: My Journey Back to Life by Lance Armstrong,3.9
+0671014196,The Summerhouse,Jude Deveraux,Fiction,"life,story,journey,discovery,humanity",The Summerhouse by Jude Deveraux,3.7
+0871136791,Cold Mountain,Charles Frazier,Fiction,"life,story,journey,discovery,humanity",Cold Mountain by Charles Frazier,4.0
+0553380095,The Heart of a Woman,Maya Angelou,Romance,"love,romance,relationships,emotion",The Heart of a Woman by Maya Angelou,3.7
+0385475721,The Blind Assassin,Margaret Atwood,Fiction,"life,story,journey,discovery,humanity",The Blind Assassin by Margaret Atwood,3.6
+0553271636,D Is for Deadbeat (Kinsey Millhone Mysteries (Paperback)),Sue Grafton,Fiction,"life,story,journey,discovery,humanity",D Is for Deadbeat (Kinsey Millhone Mysteries (Paperback)) by Sue Grafton,4.0
+0679751521,Midnight in the Garden of Good and Evil,John Berendt,Horror,"fear,darkness,suspense,supernatural",Midnight in the Garden of Good and Evil by John Berendt,3.9
+0312966091,Three To Get Deadly : A Stephanie Plum Novel (A Stephanie Plum Novel),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Three To Get Deadly : A Stephanie Plum Novel (A Stephanie Plum Novel) by Janet Evanovich,4.1
+0375504613,A Short Guide to a Happy Life,ANNA QUINDLEN,Memoir,"memoir,life,identity,resilience,growth",A Short Guide to a Happy Life by ANNA QUINDLEN,3.9
+0671001795,Two for the Dough,Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Two for the Dough by Janet Evanovich,4.2
+0553274295,Where the Red Fern Grows,Wilson Rawls,Fiction,"life,story,journey,discovery,humanity",Where the Red Fern Grows by Wilson Rawls,4.5
+0688177743,Keeping Faith : A Novel,Jodi Picoult,Spirituality,"spirituality,faith,meaning,purpose,peace",Keeping Faith : A Novel by Jodi Picoult,3.8
+0679439382,The Little Friend,Donna Tartt,Fiction,"life,story,journey,discovery,humanity",The Little Friend by Donna Tartt,3.1
+0804108749,Saint Maybe,ANNE TYLER,Fiction,"life,story,journey,discovery,humanity",Saint Maybe by ANNE TYLER,3.9
+0425121631,Rules of Prey,John Sandford,Fiction,"life,story,journey,discovery,humanity",Rules of Prey by John Sandford,3.8
+0316693235,Violets Are Blue,James Patterson,Fiction,"life,story,journey,discovery,humanity",Violets Are Blue by James Patterson,3.7
+0425153975,The Eyes of Darkness,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",The Eyes of Darkness by Dean R. Koontz,4.1
+0553579983,And Then You Die,Iris Johansen,Fiction,"life,story,journey,discovery,humanity",And Then You Die by Iris Johansen,3.9
+0399149325,Portrait of a Killer: Jack the Ripper -- Case Closed,Patricia Cornwell,Mystery,"mystery,crime,suspense,detective",Portrait of a Killer: Jack the Ripper -- Case Closed by Patricia Cornwell,3.3
+0804114986,The Bonesetter's Daughter,Amy Tan,Fiction,"life,story,journey,discovery,humanity",The Bonesetter's Daughter by Amy Tan,4.1
+0446611808,Envy,Sandra Brown,Fiction,"life,story,journey,discovery,humanity",Envy by Sandra Brown,4.0
+0425178579,Betrayal in Death,Nora Roberts,Mystery,"mystery,crime,suspense,detective",Betrayal in Death by Nora Roberts,3.9
+0316603287,The Lake House,James Patterson,Fiction,"life,story,journey,discovery,humanity",The Lake House by James Patterson,3.5
+0618129022,The Lord of the Rings (Movie Art Cover),J.R.R. Tolkien,Fiction,"life,story,journey,discovery,humanity",The Lord of the Rings (Movie Art Cover) by J.R.R. Tolkien,4.5
+0345423402,A Kiss of Shadows (Meredith Gentry Novels (Paperback)),LAURELL K. HAMILTON,Romance,"love,romance,relationships,emotion",A Kiss of Shadows (Meredith Gentry Novels (Paperback)) by LAURELL K. HAMILTON,3.9
+0786868619,Stolen Lives: Twenty Years in a Desert Jail,Malika Oufkir,Fiction,"life,story,journey,discovery,humanity",Stolen Lives: Twenty Years in a Desert Jail by Malika Oufkir,4.0
+0451167317,The Dark Half,Stephen King,Horror,"fear,darkness,suspense,supernatural",The Dark Half by Stephen King,3.7
+0312980159,Fast Women,Jennifer Crusie,Fiction,"life,story,journey,discovery,humanity",Fast Women by Jennifer Crusie,3.8
+0679720200,The Stranger,ALBERT CAMUS,Fiction,"life,story,journey,discovery,humanity",The Stranger by ALBERT CAMUS,3.8
+0312983271,Full House (Janet Evanovich's Full Series),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Full House (Janet Evanovich's Full Series) by Janet Evanovich,3.8
+0446670111,Einstein's Dreams,Alan Lightman,Fiction,"life,story,journey,discovery,humanity",Einstein's Dreams by Alan Lightman,3.9
+0312979096,Now You See Me,Tina Wainscott,Fiction,"life,story,journey,discovery,humanity",Now You See Me by Tina Wainscott,4.0
+0553284789,F Is for Fugitive (Kinsey Millhone Mysteries (Paperback)),Sue Grafton,Fiction,"life,story,journey,discovery,humanity",F Is for Fugitive (Kinsey Millhone Mysteries (Paperback)) by Sue Grafton,3.9
+0553279556,E Is for Evidence: A Kinsey Millhone Mystery (Kinsey Millhone Mysteries (Paperback)),Sue Grafton,Mystery,"mystery,crime,suspense,detective",E Is for Evidence: A Kinsey Millhone Mystery (Kinsey Millhone Mysteries (Paperback)) by Sue Grafton,4.0
+0446605409,Plum Island,Nelson DeMille,Fiction,"life,story,journey,discovery,humanity",Plum Island by Nelson DeMille,4.0
+0553280414,A Separate Peace,John Knowles,Fiction,"life,story,journey,discovery,humanity",A Separate Peace by John Knowles,3.9
+0439136369,Harry Potter and the Prisoner of Azkaban (Book 3),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Prisoner of Azkaban (Book 3) by J. K. Rowling,4.5
+0345366239,The Eight,Katherine Neville,Fiction,"life,story,journey,discovery,humanity",The Eight by Katherine Neville,3.9
+0451163524,"The Drawing of the Three (The Dark Tower, Book 2)",Stephen King,Horror,"fear,darkness,suspense,supernatural","The Drawing of the Three (The Dark Tower, Book 2) by Stephen King",4.0
+0452280621,Beloved,Toni Morrison,Fiction,"life,story,journey,discovery,humanity",Beloved by Toni Morrison,3.9
+0451166582,The Eyes of the Dragon,Stephen King,Fantasy,"magic,adventure,fantasy,quest,power",The Eyes of the Dragon by Stephen King,4.4
+0385503822,The Summons,John Grisham,Fiction,"life,story,journey,discovery,humanity",The Summons by John Grisham,3.7
+0609804138,The Sweet Potato Queens' Book of Love,JILL CONNER BROWNE,Romance,"love,romance,relationships,emotion",The Sweet Potato Queens' Book of Love by JILL CONNER BROWNE,3.8
+0345439104,Drowning Ruth (Oprah's Book Club),CHRISTINA SCHWARZ,Fiction,"life,story,journey,discovery,humanity",Drowning Ruth (Oprah's Book Club) by CHRISTINA SCHWARZ,3.9
+0425180638,The Last Precinct,Patricia Cornwell,Fiction,"life,story,journey,discovery,humanity",The Last Precinct by Patricia Cornwell,3.5
+0312924801,September,Rosamunde Pilcher,Fiction,"life,story,journey,discovery,humanity",September by Rosamunde Pilcher,3.8
+0316693251,Roses Are Red,James Patterson,Fiction,"life,story,journey,discovery,humanity",Roses Are Red by James Patterson,4.0
+0679735909,Possession : A Romance,A.S. BYATT,Romance,"love,romance,relationships,emotion",Possession : A Romance by A.S. BYATT,4.0
+0449221490,L Is for Lawless,Sue Grafton,Fiction,"life,story,journey,discovery,humanity",L Is for Lawless by Sue Grafton,4.0
+0345387651,The Cider House Rules,John Irving,Fiction,"life,story,journey,discovery,humanity",The Cider House Rules by John Irving,3.7
+0679444815,Timeline,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",Timeline by Michael Crichton,4.0
+0060921145,Animal Dreams,Barbara Kingsolver,Fiction,"life,story,journey,discovery,humanity",Animal Dreams by Barbara Kingsolver,3.9
+0425121259,The Servants of Twilight,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",The Servants of Twilight by Dean R. Koontz,3.7
+0743467523,Dreamcatcher,Stephen King,Fiction,"life,story,journey,discovery,humanity",Dreamcatcher by Stephen King,3.8
+0345404114,Sleepers,Lorenzo Carcaterra,Fiction,"life,story,journey,discovery,humanity",Sleepers by Lorenzo Carcaterra,3.5
+0345427637,The Angel of Darkness,Caleb Carr,Fiction,"life,story,journey,discovery,humanity",The Angel of Darkness by Caleb Carr,3.5
+0553213105,Pride and Prejudice,Jane Austen,Fiction,"life,story,journey,discovery,humanity",Pride and Prejudice by Jane Austen,4.2
+0860074382,84 Charing Cross Road,Helene Hanff,Fiction,"life,story,journey,discovery,humanity",84 Charing Cross Road by Helene Hanff,4.2
+0671042572,Jewel (Oprah's Book Club),Bret Lott,Fiction,"life,story,journey,discovery,humanity",Jewel (Oprah's Book Club) by Bret Lott,3.9
+0449221512,I Is for Innocent,Sue Grafton,Fiction,"life,story,journey,discovery,humanity",I Is for Innocent by Sue Grafton,3.9
+1400031362,Morality for Beautiful Girls (No.1 Ladies Detective Agency),Alexander McCall Smith,Mystery,"mystery,crime,suspense,detective",Morality for Beautiful Girls (No.1 Ladies Detective Agency) by Alexander McCall Smith,4.3
+0449223612,N Is for Noose,Sue Grafton,Fiction,"life,story,journey,discovery,humanity",N Is for Noose by Sue Grafton,3.9
+0440998050,A Wrinkle in Time,Madeleine L'Engle,Fiction,"life,story,journey,discovery,humanity",A Wrinkle in Time by Madeleine L'Engle,4.4
+1565122968,Gap Creek: A Novel,Robert Morgan,Fiction,"life,story,journey,discovery,humanity",Gap Creek: A Novel by Robert Morgan,3.8
+0804115613,Fried Green Tomatoes at the Whistle Stop Cafe,Fannie Flagg,Fiction,"life,story,journey,discovery,humanity",Fried Green Tomatoes at the Whistle Stop Cafe by Fannie Flagg,4.3
+0679745203,The English Patient,Michael Ondaatje,Fiction,"life,story,journey,discovery,humanity",The English Patient by Michael Ondaatje,3.9
+0894808249,All I Need to Know I Learned from My Cat,Suzy Becker,Fiction,"life,story,journey,discovery,humanity",All I Need to Know I Learned from My Cat by Suzy Becker,4.1
+0679412956,Lasher,Anne Rice,Fiction,"life,story,journey,discovery,humanity",Lasher by Anne Rice,3.8
+0439139600,Harry Potter and the Goblet of Fire (Book 4),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Goblet of Fire (Book 4) by J. K. Rowling,4.6
+0671670689,Dawn (Cutler),V.C. Andrews,Fiction,"life,story,journey,discovery,humanity",Dawn (Cutler) by V.C. Andrews,3.7
+0671011375,Death du Jour,Kathy Reichs,Mystery,"mystery,crime,suspense,detective",Death du Jour by Kathy Reichs,3.9
+0553574663,The Grilling Season,Diane Mott Davidson,Fiction,"life,story,journey,discovery,humanity",The Grilling Season by Diane Mott Davidson,3.9
+0553279378,I Know Why the Caged Bird Sings,MAYA ANGELOU,Fiction,"life,story,journey,discovery,humanity",I Know Why the Caged Bird Sings by MAYA ANGELOU,4.0
+0425083837,The Hunt for Red October,Tom Clancy,Fiction,"life,story,journey,discovery,humanity",The Hunt for Red October by Tom Clancy,4.2
+0553292722,Still Waters,TAMI HOAG,Fiction,"life,story,journey,discovery,humanity",Still Waters by TAMI HOAG,3.4
+0345354621,The Terminal Man,Michael Crichton,Fiction,"life,story,journey,discovery,humanity",The Terminal Man by Michael Crichton,3.7
+0446391301,Geek Love,Katherine Dunn,Romance,"love,romance,relationships,emotion",Geek Love by Katherine Dunn,4.0
+0312983867,Hard Eight : A Stephanie Plum Novel (A Stephanie Plum Novel),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Hard Eight : A Stephanie Plum Novel (A Stephanie Plum Novel) by Janet Evanovich,4.0
+0345459202,Big Stone Gap,Adriana Trigiani,Fiction,"life,story,journey,discovery,humanity",Big Stone Gap by Adriana Trigiani,4.0
+1400031346,The No. 1 Ladies' Detective Agency,Alexander McCall Smith,Mystery,"mystery,crime,suspense,detective",The No. 1 Ladies' Detective Agency by Alexander McCall Smith,4.1
+0316781142,The Last Time They Met : A Novel,Anita Shreve,Fiction,"life,story,journey,discovery,humanity",The Last Time They Met : A Novel by Anita Shreve,3.7
+0425147584,Debt of Honor (Jack Ryan Novels),Tom Clancy,Fiction,"life,story,journey,discovery,humanity",Debt of Honor (Jack Ryan Novels) by Tom Clancy,3.6
+0684853523,On Writing,Stephen King,Fiction,"life,story,journey,discovery,humanity",On Writing by Stephen King,3.8
+0452283442,The Darwin Awards: Evolution in Action,Wendy Northcutt,Fiction,"life,story,journey,discovery,humanity",The Darwin Awards: Evolution in Action by Wendy Northcutt,3.9
+0345404319,Taltos: Lives of the Mayfair Witches,Anne Rice,Fiction,"life,story,journey,discovery,humanity",Taltos: Lives of the Mayfair Witches by Anne Rice,3.9
+0451168615,Skeleton Crew,Stephen King,Fiction,"life,story,journey,discovery,humanity",Skeleton Crew by Stephen King,4.1
+0684853507,BAG OF BONES : A NOVEL,Stephen King,Fiction,"life,story,journey,discovery,humanity",BAG OF BONES : A NOVEL by Stephen King,4.2
+0670865796,The Deep End of the Ocean (Oprah's Book Club (Hardcover)),Jacquelyn Mitchard,Fiction,"life,story,journey,discovery,humanity",The Deep End of the Ocean (Oprah's Book Club (Hardcover)) by Jacquelyn Mitchard,3.9
+0316603570,3rd Degree,James Patterson,Fiction,"life,story,journey,discovery,humanity",3rd Degree by James Patterson,4.3
+0425192725,Q Is for Quarry,Sue Grafton,Fiction,"life,story,journey,discovery,humanity",Q Is for Quarry by Sue Grafton,3.9
+0375412530,Back When We Were Grownups: A Novel,ANNE TYLER,Fiction,"life,story,journey,discovery,humanity",Back When We Were Grownups: A Novel by ANNE TYLER,3.6
+031298328X,Full Tilt (Janet Evanovich's Full Series),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Full Tilt (Janet Evanovich's Full Series) by Janet Evanovich,3.4
+0380728133,Bloodsucking Fiends: A Love Story,Christopher Moore,Romance,"love,romance,relationships,emotion",Bloodsucking Fiends: A Love Story by Christopher Moore,4.0
+0345435168,Open House (Oprah's Book Club (Paperback)),Elizabeth Berg,Fiction,"life,story,journey,discovery,humanity",Open House (Oprah's Book Club (Paperback)) by Elizabeth Berg,3.7
+0440221595,The Glass Lake,Maeve Binchy,Fiction,"life,story,journey,discovery,humanity",The Glass Lake by Maeve Binchy,4.0
+0525947299,No Second  Chance,Harlan Coben,Fiction,"life,story,journey,discovery,humanity",No Second  Chance by Harlan Coben,4.3
+0440222656,The Horse Whisperer,Nicholas Evans,Fiction,"life,story,journey,discovery,humanity",The Horse Whisperer by Nicholas Evans,3.8
+0316899984,"River, Cross My Heart",Breena Clarke,Romance,"love,romance,relationships,emotion","River, Cross My Heart by Breena Clarke",3.3
+014029628X,Girl in Hyacinth Blue,Susan Vreeland,Fiction,"life,story,journey,discovery,humanity",Girl in Hyacinth Blue by Susan Vreeland,4.1
+044922046X,Catering to Nobody,Diane Mott Davidson,Fiction,"life,story,journey,discovery,humanity",Catering to Nobody by Diane Mott Davidson,3.8
+0064472272,"Angus, Thongs and Full-Frontal Snogging: Confessions of Georgia Nicolson",Louise Rennison,Fiction,"life,story,journey,discovery,humanity","Angus, Thongs and Full-Frontal Snogging: Confessions of Georgia Nicolson by Louise Rennison",4.0
+0515121843,Sea Swept (Quinn Brothers (Paperback)),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Sea Swept (Quinn Brothers (Paperback)) by Nora Roberts,4.0
+0399147195,P Is for Peril (Kinsey Millhone Mysteries (Hardcover)),Sue Grafton,Fiction,"life,story,journey,discovery,humanity",P Is for Peril (Kinsey Millhone Mysteries (Hardcover)) by Sue Grafton,4.0
+0743206029,On the Street Where You Live : A Novel,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",On the Street Where You Live : A Novel by Mary Higgins Clark,3.7
+0316780375,The Weight of Water : A Novel Tag: Author of Resistance and Strange Fits of Passion,Anita Shreve,Romance,"love,romance,relationships,emotion",The Weight of Water : A Novel Tag: Author of Resistance and Strange Fits of Passion by Anita Shreve,3.8
+0743436210,Hearts in Atlantis,Stephen King,Fiction,"life,story,journey,discovery,humanity",Hearts in Atlantis by Stephen King,3.6
+0804105820,It Was on Fire When I Lay Down on It,Robert Fulghum,Fiction,"life,story,journey,discovery,humanity",It Was on Fire When I Lay Down on It by Robert Fulghum,4.1
+0446604844,Total Control,David Baldacci,Fiction,"life,story,journey,discovery,humanity",Total Control by David Baldacci,3.8
+0380817691,Stalker: A Peter Decker and Rina Lazarus Novel,Faye Kellerman,Fiction,"life,story,journey,discovery,humanity",Stalker: A Peter Decker and Rina Lazarus Novel by Faye Kellerman,3.9
+0553582526,Dust to Dust,TAMI HOAG,Fiction,"life,story,journey,discovery,humanity",Dust to Dust by TAMI HOAG,3.6
+0141000198,Bridget Jones's Diary,Helen Fielding,Memoir,"memoir,life,identity,resilience,growth",Bridget Jones's Diary by Helen Fielding,3.7
+0553578316,Sticks & Scones,Diane Mott Davidson,Fiction,"life,story,journey,discovery,humanity",Sticks & Scones by Diane Mott Davidson,3.7
+0446365386,Gone with the Wind,Margaret Mitchell,Fiction,"life,story,journey,discovery,humanity",Gone with the Wind by Margaret Mitchell,4.5
+0671727796,The Color Purple,Alice Walker,Fiction,"life,story,journey,discovery,humanity",The Color Purple by Alice Walker,4.2
+0451161351,Cujo,Stephen King,Fiction,"life,story,journey,discovery,humanity",Cujo by Stephen King,3.7
+0373218036,"Truly, Madly Manhattan",Nora Roberts,Fiction,"life,story,journey,discovery,humanity","Truly, Madly Manhattan by Nora Roberts",3.8
+0553572326,Survival of the Fittest: An Alex Delaware Novel,Jonathan Kellerman,Fiction,"life,story,journey,discovery,humanity",Survival of the Fittest: An Alex Delaware Novel by Jonathan Kellerman,4.1
+0425172546,Southern Cross,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",Southern Cross by Patricia Daniels Cornwell,3.6
+0743235150,Everything's Eventual : 14 Dark Tales,Stephen King,Horror,"fear,darkness,suspense,supernatural",Everything's Eventual : 14 Dark Tales by Stephen King,4.3
+0140177396,Of Mice and Men (Penguin Great Books of the 20th Century),John Steinbeck,Fiction,"life,story,journey,discovery,humanity",Of Mice and Men (Penguin Great Books of the 20th Century) by John Steinbeck,4.1
+0553280341,B Is for Burglar (Kinsey Millhone Mysteries (Paperback)),Sue Grafton,Fiction,"life,story,journey,discovery,humanity",B Is for Burglar (Kinsey Millhone Mysteries (Paperback)) by Sue Grafton,3.9
+0553280368,C Is for Corpse (Kinsey Millhone Mysteries (Paperback)),Sue Grafton,Fiction,"life,story,journey,discovery,humanity",C Is for Corpse (Kinsey Millhone Mysteries (Paperback)) by Sue Grafton,4.2
+0812570944,What Dreams May Come : A Novel,Richard Matheson,Fiction,"life,story,journey,discovery,humanity",What Dreams May Come : A Novel by Richard Matheson,4.2
+0451176464,Gerald's Game,Stephen King,Fiction,"life,story,journey,discovery,humanity",Gerald's Game by Stephen King,3.7
+0671894455,FORREST GUMP (Movie Tie in),Winston Groom,Fiction,"life,story,journey,discovery,humanity",FORREST GUMP (Movie Tie in) by Winston Groom,3.5
+0451186362,Rose Madder,Stephen King,Fiction,"life,story,journey,discovery,humanity",Rose Madder by Stephen King,3.9
+0446607657,When the Wind Blows,James Patterson,Fiction,"life,story,journey,discovery,humanity",When the Wind Blows by James Patterson,3.9
+0345354613,Eaters of the Dead,MICHAEL CRICHTON,Fiction,"life,story,journey,discovery,humanity",Eaters of the Dead by MICHAEL CRICHTON,3.7
+0140430725,"Pride and Prejudice (The Penguin English Library, El 72)",Jane Austen,Fiction,"life,story,journey,discovery,humanity","Pride and Prejudice (The Penguin English Library, El 72) by Jane Austen",4.4
+0441569595,Neuromancer (Remembering Tomorrow),William Gibson,Fiction,"life,story,journey,discovery,humanity",Neuromancer (Remembering Tomorrow) by William Gibson,3.8
+0345301110,Story of O,Pauline Reage,Memoir,"memoir,life,identity,resilience,growth",Story of O by Pauline Reage,3.7
+0312980140,Seven Up (A Stephanie Plum Novel),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Seven Up (A Stephanie Plum Novel) by Janet Evanovich,4.2
+044022425X,Drums of Autumn,DIANA GABALDON,Fiction,"life,story,journey,discovery,humanity",Drums of Autumn by DIANA GABALDON,4.3
+0440217563,Voyager,DIANA GABALDON,Fiction,"life,story,journey,discovery,humanity",Voyager by DIANA GABALDON,4.4
+014023313X,The Stone Diaries,Carol Shields,Fiction,"life,story,journey,discovery,humanity",The Stone Diaries by Carol Shields,3.6
+0375506039,Open House,Elizabeth Berg,Fiction,"life,story,journey,discovery,humanity",Open House by Elizabeth Berg,3.6
+0671729411,Flowers In The Attic (Dollanganger),V.C. Andrews,Fiction,"life,story,journey,discovery,humanity",Flowers In The Attic (Dollanganger) by V.C. Andrews,4.2
+0316788228,The Pilot's Wife,Anita Shreve,Fiction,"life,story,journey,discovery,humanity",The Pilot's Wife by Anita Shreve,3.9
+0441172717,Dune (Remembering Tomorrow),Frank Herbert,Fiction,"life,story,journey,discovery,humanity",Dune (Remembering Tomorrow) by Frank Herbert,4.5
+0345441036,Black House,Stephen King,Fiction,"life,story,journey,discovery,humanity",Black House by Stephen King,4.0
+0553571885,A Thin Dark Line (Mysteries & Horror),TAMI HOAG,Horror,"fear,darkness,suspense,supernatural",A Thin Dark Line (Mysteries & Horror) by TAMI HOAG,4.2
+0553576801,The Perfect Husband,LISA GARDNER,Fiction,"life,story,journey,discovery,humanity",The Perfect Husband by LISA GARDNER,3.7
+0373484410,Time And Again,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Time And Again by Nora Roberts,3.8
+0553578022,The Face of Deception,Iris Johansen,Fiction,"life,story,journey,discovery,humanity",The Face of Deception by Iris Johansen,3.9
+0449219364,G Is for Gumshoe (Kinsey Millhone Mysteries (Paperback)),Sue Grafton,Fiction,"life,story,journey,discovery,humanity",G Is for Gumshoe (Kinsey Millhone Mysteries (Paperback)) by Sue Grafton,4.1
+0743227441,The Other Boleyn Girl,Philippa Gregory,Fiction,"life,story,journey,discovery,humanity",The Other Boleyn Girl by Philippa Gregory,4.3
+0553275976,The Bonfire of the Vanities,Tom Wolfe,Fiction,"life,story,journey,discovery,humanity",The Bonfire of the Vanities by Tom Wolfe,3.6
+0553582127,The Search,Iris Johansen,Fiction,"life,story,journey,discovery,humanity",The Search by Iris Johansen,3.8
+0553578308,Tough Cookie,Diane Mott Davidson,Fiction,"life,story,journey,discovery,humanity",Tough Cookie by Diane Mott Davidson,3.8
+0451190548,The Green Mile: Coffey's Hands (Green Mile Series),Stephen King,Fiction,"life,story,journey,discovery,humanity",The Green Mile: Coffey's Hands (Green Mile Series) by Stephen King,3.9
+0425192733,Portrait of a Killer: Jack the Ripper-- Case Closed (Berkley True Crime),Patricia Cornwell,Mystery,"mystery,crime,suspense,detective",Portrait of a Killer: Jack the Ripper-- Case Closed (Berkley True Crime) by Patricia Cornwell,3.0
+0525941908,The Regulators,Richard Bachman,Fiction,"life,story,journey,discovery,humanity",The Regulators by Richard Bachman,3.6
+0767915054,A Girl Named Zippy: Growing Up Small in Mooreland Indiana (Today Show Book Club #3),HAVEN KIMMEL,Fiction,"life,story,journey,discovery,humanity",A Girl Named Zippy: Growing Up Small in Mooreland Indiana (Today Show Book Club #3) by HAVEN KIMMEL,3.5
+0452284449,The Virgin Blue,Tracy Chevalier,Fiction,"life,story,journey,discovery,humanity",The Virgin Blue by Tracy Chevalier,3.9
+0446610542,The Bachelor (Warner Books Contemporary Romance),Carly Phillips,Romance,"love,romance,relationships,emotion",The Bachelor (Warner Books Contemporary Romance) by Carly Phillips,3.7
+0425132951,The House of Thunder,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",The House of Thunder by Dean R. Koontz,3.4
+0451188454,The Bone Collector (Lincoln Rhyme Novels (Paperback)),Jeff Deaver,Fiction,"life,story,journey,discovery,humanity",The Bone Collector (Lincoln Rhyme Novels (Paperback)) by Jeff Deaver,4.2
+1558745718,Chicken Soup for the Pet Lover's Soul (Chicken Soup for the Soul),Jack Canfield,Spirituality,"spirituality,faith,meaning,purpose,peace",Chicken Soup for the Pet Lover's Soul (Chicken Soup for the Soul) by Jack Canfield,4.0
+0140143505,84 Charing Cross Road,Helene Hanff,Fiction,"life,story,journey,discovery,humanity",84 Charing Cross Road by Helene Hanff,4.7
+0345413881,Dr. Death (Alex Delaware Novels (Paperback)),Jonathan Kellerman,Mystery,"mystery,crime,suspense,detective",Dr. Death (Alex Delaware Novels (Paperback)) by Jonathan Kellerman,3.9
+0451163966,One Flew Over the Cuckoo's Nest,Ken Kesey,Fiction,"life,story,journey,discovery,humanity",One Flew Over the Cuckoo's Nest by Ken Kesey,4.4
+0525946829,Quentins,Maeve Binchy,Fiction,"life,story,journey,discovery,humanity",Quentins by Maeve Binchy,3.6
+0312986343,Visions of Sugar Plums: A Stephanie Plum Holiday Novel,Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Visions of Sugar Plums: A Stephanie Plum Holiday Novel by Janet Evanovich,3.6
+0451170385,Four Past Midnight,Stephen King,Fiction,"life,story,journey,discovery,humanity",Four Past Midnight by Stephen King,3.9
+006016848X,"Men Are from Mars, Women Are from Venus: A Practical Guide for Improving Communication and Getting What You Want in Your Relationships",John Gray,Fiction,"life,story,journey,discovery,humanity","Men Are from Mars, Women Are from Venus: A Practical Guide for Improving Communication and Getting What You Want in Your Relationships by John Gray",3.6
+0440212561,Outlander,DIANA GABALDON,Fiction,"life,story,journey,discovery,humanity",Outlander by DIANA GABALDON,4.3
+0515133302,Hemlock Bay,Catherine Coulter,Fiction,"life,story,journey,discovery,humanity",Hemlock Bay by Catherine Coulter,3.6
+0684801523,The Great Gatsby,F. Scott Fitzgerald,Fiction,"life,story,journey,discovery,humanity",The Great Gatsby by F. Scott Fitzgerald,3.8
+042510107X,Red Storm Rising,Tom Clancy,Fiction,"life,story,journey,discovery,humanity",Red Storm Rising by Tom Clancy,3.9
+043936213X,Harry Potter and the Sorcerer's Stone (Book 1),J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Sorcerer's Stone (Book 1) by J. K. Rowling,4.6
+055357258X,The Last Suppers,DIANE MOTT DAVIDSON,Fiction,"life,story,journey,discovery,humanity",The Last Suppers by DIANE MOTT DAVIDSON,4.0
+0553573136,Couplehood,PAUL REISER,Fiction,"life,story,journey,discovery,humanity",Couplehood by PAUL REISER,3.8
+0446603716,Hide & Seek,James Patterson,Fiction,"life,story,journey,discovery,humanity",Hide & Seek by James Patterson,3.9
+0743460529,Daddy's Little Girl,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",Daddy's Little Girl by Mary Higgins Clark,3.7
+0671880314,Schindler's List,Thomas Keneally,Fiction,"life,story,journey,discovery,humanity",Schindler's List by Thomas Keneally,4.2
+038550120X,A Painted House,JOHN GRISHAM,Fiction,"life,story,journey,discovery,humanity",A Painted House by JOHN GRISHAM,4.0
+0812967240,It's My F---ing Birthday : A Novel,MERRILL MARKOE,Fiction,"life,story,journey,discovery,humanity",It's My F---ing Birthday : A Novel by MERRILL MARKOE,3.5
+0385502532,Drowning Ruth,Christina Schwarz,Fiction,"life,story,journey,discovery,humanity",Drowning Ruth by Christina Schwarz,4.0
+0373218397,Summer Pleasures,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Summer Pleasures by Nora Roberts,3.4
+0425179885,The Devil's Code,John Sandford,Fiction,"life,story,journey,discovery,humanity",The Devil's Code by John Sandford,3.4
+0441001971,Circus of the Damned (Anita Blake Vampire Hunter (Paperback)),Laurell K. Hamilton,Fiction,"life,story,journey,discovery,humanity",Circus of the Damned (Anita Blake Vampire Hunter (Paperback)) by Laurell K. Hamilton,4.2
+0375703063,A Virtuous Woman (Oprah's Book Club (Paperback)),Kaye Gibbons,Fiction,"life,story,journey,discovery,humanity",A Virtuous Woman (Oprah's Book Club (Paperback)) by Kaye Gibbons,3.4
+0156005891,Eden Close,Anita Shreve,Fiction,"life,story,journey,discovery,humanity",Eden Close by Anita Shreve,3.9
+0446360589,The Burden of Proof,Scott Turow,Fiction,"life,story,journey,discovery,humanity",The Burden of Proof by Scott Turow,3.4
+0553580221,False Memory,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",False Memory by Dean R. Koontz,3.9
+0064471047,"The Lion, the Witch, and the Wardrobe (The Chronicles of Narnia, Book 2)",C. S. Lewis,Fantasy,"magic,adventure,fantasy,quest,power","The Lion, the Witch, and the Wardrobe (The Chronicles of Narnia, Book 2) by C. S. Lewis",4.4
+0446603929,See How They Run,James Patterson,Fiction,"life,story,journey,discovery,humanity",See How They Run by James Patterson,3.5
+0375756981,The Vagina Monologues: The V-Day Edition,Eve Ensler,Fiction,"life,story,journey,discovery,humanity",The Vagina Monologues: The V-Day Edition by Eve Ensler,3.8
+0689817851,Go Ask Alice,Anonymous,Fiction,"life,story,journey,discovery,humanity",Go Ask Alice by Anonymous,3.9
+0312306326,Visions of Sugar Plums,Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Visions of Sugar Plums by Janet Evanovich,3.7
+0451169522,Misery,Stephen King,Fiction,"life,story,journey,discovery,humanity",Misery by Stephen King,4.0
+0140179836,The Liar's Club: A Memoir,Mary Karr,Memoir,"memoir,life,identity,resilience,growth",The Liar's Club: A Memoir by Mary Karr,4.1
+044022103X,One True Thing,Anna Quindlen,Memoir,"memoir,life,identity,resilience,growth",One True Thing by Anna Quindlen,3.8
+0451180232,Nightmares & Dreamscapes,Stephen King,Fiction,"life,story,journey,discovery,humanity",Nightmares & Dreamscapes by Stephen King,4.1
+0451137965,Thinner,Stephen King,Fiction,"life,story,journey,discovery,humanity",Thinner by Stephen King,3.9
+0425128164,The Voice of the Night,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",The Voice of the Night by Dean R. Koontz,3.6
+0425107469,Watchers,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",Watchers by Dean R. Koontz,4.1
+0553580191,Seize the Night,DEAN KOONTZ,Fiction,"life,story,journey,discovery,humanity",Seize the Night by DEAN KOONTZ,3.8
+0451172817,Needful Things,Stephen King,Fiction,"life,story,journey,discovery,humanity",Needful Things by Stephen King,4.1
+0440487617,A Wind in the Door,Madeleine L'Engle,Fiction,"life,story,journey,discovery,humanity",A Wind in the Door by Madeleine L'Engle,4.2
+0743211375,From a Buick 8 : A Novel,Stephen King,Fiction,"life,story,journey,discovery,humanity",From a Buick 8 : A Novel by Stephen King,3.8
+080411868X,"Welcome to the World, Baby Girl!",Fannie Flagg,Fiction,"life,story,journey,discovery,humanity","Welcome to the World, Baby Girl! by Fannie Flagg",3.8
+140003065X,A Fine Balance,Rohinton Mistry,Fiction,"life,story,journey,discovery,humanity",A Fine Balance by Rohinton Mistry,4.1
+0671011367,Deja Dead,Kathy Reichs,Fiction,"life,story,journey,discovery,humanity",Deja Dead by Kathy Reichs,3.6
+0671027573,Mr. Perfect,Linda Howard,Fiction,"life,story,journey,discovery,humanity",Mr. Perfect by Linda Howard,4.0
+0553569910,The Ugly Duckling,Iris Johansen,Fiction,"life,story,journey,discovery,humanity",The Ugly Duckling by Iris Johansen,3.8
+0743418204,In Her Shoes : A Novel,Jennifer Weiner,Fiction,"life,story,journey,discovery,humanity",In Her Shoes : A Novel by Jennifer Weiner,4.0
+0060391626,I Know This Much Is True (Oprah's Book Club),Wally Lamb,Memoir,"memoir,life,identity,resilience,growth",I Know This Much Is True (Oprah's Book Club) by Wally Lamb,4.2
+0743203631,Gap Creek: The Story Of A Marriage,Robert Morgan,Memoir,"memoir,life,identity,resilience,growth",Gap Creek: The Story Of A Marriage by Robert Morgan,3.6
+080411109X,The Hundred Secret Senses,Amy Tan,Thriller,"suspense,danger,adventure,survival",The Hundred Secret Senses by Amy Tan,3.9
+0553213172,Anne of the Island,Lucy Maud Montgomery,Fiction,"life,story,journey,discovery,humanity",Anne of the Island by Lucy Maud Montgomery,4.4
+0805059555,"\""O\"" Is for Outlaw",Sue Grafton,Fiction,"life,story,journey,discovery,humanity","\""O\"" Is for Outlaw by Sue Grafton",3.8
+0312974256,Welcome to Temptation,Jennifer Crusie,Fiction,"life,story,journey,discovery,humanity",Welcome to Temptation by Jennifer Crusie,3.9
+0446608815,Pop Goes the Weasel,James Patterson,Fiction,"life,story,journey,discovery,humanity",Pop Goes the Weasel by James Patterson,3.6
+0515128546,Tears of the Moon (Irish Trilogy),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Tears of the Moon (Irish Trilogy) by Nora Roberts,4.0
+0670880728,Bridget Jones's Diary,Helen Fielding,Memoir,"memoir,life,identity,resilience,growth",Bridget Jones's Diary by Helen Fielding,4.0
+0451142934,Skeleton Crew,Stephen King,Fiction,"life,story,journey,discovery,humanity",Skeleton Crew by Stephen King,4.1
+0446520802,The Notebook,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",The Notebook by Nicholas Sparks,4.0
+0449911519,Secret History : A Novel,DONNA TARTT,History,"history,war,society,power,change",Secret History : A Novel by DONNA TARTT,4.3
+0451173317,"The Waste Lands (The Dark Tower, Book 3)",Stephen King,Horror,"fear,darkness,suspense,supernatural","The Waste Lands (The Dark Tower, Book 3) by Stephen King",4.2
+0451160525,"The Gunslinger (The Dark Tower, Book 1)",Stephen King,Horror,"fear,darkness,suspense,supernatural","The Gunslinger (The Dark Tower, Book 1) by Stephen King",4.2
+1558745157,The Lost Boy: A Foster Child's Search for the Love of a Family,Dave Pelzer,Romance,"love,romance,relationships,emotion",The Lost Boy: A Foster Child's Search for the Love of a Family by Dave Pelzer,4.1
+0446675059,The Honk and Holler Opening Soon,Billie Letts,Fiction,"life,story,journey,discovery,humanity",The Honk and Holler Opening Soon by Billie Letts,4.1
+0316781010,Fortune's Rocks: A Novel,Anita Shreve,Fiction,"life,story,journey,discovery,humanity",Fortune's Rocks: A Novel by Anita Shreve,3.9
+0064400018,Little House in the Big Woods,Laura Ingalls Wilder,Fiction,"life,story,journey,discovery,humanity",Little House in the Big Woods by Laura Ingalls Wilder,4.5
+0425163407,Unnatural Exposure,Patricia Daniels Cornwell,Fiction,"life,story,journey,discovery,humanity",Unnatural Exposure by Patricia Daniels Cornwell,4.0
+0515133876,Narcissus in Chains (Anita Blake Vampire Hunter (Paperback)),Laurell K. Hamilton,Fiction,"life,story,journey,discovery,humanity",Narcissus in Chains (Anita Blake Vampire Hunter (Paperback)) by Laurell K. Hamilton,4.0
+0671027581,Open Season,Linda Howard,Fiction,"life,story,journey,discovery,humanity",Open Season by Linda Howard,3.6
+1573229725,Fingersmith,Sarah Waters,Fiction,"life,story,journey,discovery,humanity",Fingersmith by Sarah Waters,4.3
+0425136981,Shadowfires,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",Shadowfires by Dean R. Koontz,3.6
+0385509510,Under the Banner of Heaven : A Story of Violent Faith,JON KRAKAUER,Memoir,"memoir,life,identity,resilience,growth",Under the Banner of Heaven : A Story of Violent Faith by JON KRAKAUER,4.0
+0671867091,Remember Me,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",Remember Me by Mary Higgins Clark,3.9
+0345386108,Winter Moon,Dean R. Koontz,Fiction,"life,story,journey,discovery,humanity",Winter Moon by Dean R. Koontz,3.7
+0446525537,A Walk to Remember,Nicholas Sparks,Fiction,"life,story,journey,discovery,humanity",A Walk to Remember by Nicholas Sparks,3.7
+0670894605,The Secret Life of Bees,Sue Monk Kidd,Memoir,"memoir,life,identity,resilience,growth",The Secret Life of Bees by Sue Monk Kidd,4.4
+0451203771,Scarlet Feather,Maeve Binchy,Fiction,"life,story,journey,discovery,humanity",Scarlet Feather by Maeve Binchy,4.0
+0786867647,Lucky Man: A Memoir,Michael J. Fox,Memoir,"memoir,life,identity,resilience,growth",Lucky Man: A Memoir by Michael J. Fox,4.3
+0515133973,Midnight Bayou,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Midnight Bayou by Nora Roberts,4.1
+0345445848,Big Cherry Holler: A Big Stone Gap Novel (Ballantine Reader's Circle),Adriana Trigiani,Fiction,"life,story,journey,discovery,humanity",Big Cherry Holler: A Big Stone Gap Novel (Ballantine Reader's Circle) by Adriana Trigiani,3.9
+0452281903,A Man Named Dave: A Story of Triumph and Forgiveness,David J. Pelzer,Memoir,"memoir,life,identity,resilience,growth",A Man Named Dave: A Story of Triumph and Forgiveness by David J. Pelzer,3.8
+038542017X,"Like Water for Chocolate : A Novel in Monthly Installments with Recipes, Romances, and Home Remedies",LAURA ESQUIVEL,Fiction,"life,story,journey,discovery,humanity","Like Water for Chocolate : A Novel in Monthly Installments with Recipes, Romances, and Home Remedies by LAURA ESQUIVEL",3.9
+0553574574,Beach Music,Pat Conroy,Fiction,"life,story,journey,discovery,humanity",Beach Music by Pat Conroy,3.9
+0451190572,The Green Mile: Coffey on the Mile (Green Mile Series),Stephen King,Fiction,"life,story,journey,discovery,humanity",The Green Mile: Coffey on the Mile (Green Mile Series) by Stephen King,4.3
+0061097101,The Saving Graces: A Novel,Patricia Gaffney,Fiction,"life,story,journey,discovery,humanity",The Saving Graces: A Novel by Patricia Gaffney,3.8
+0618002227,"The Fellowship of the Ring (The Lord of the Rings, Part 1)",J. R. R. Tolkien,Fiction,"life,story,journey,discovery,humanity","The Fellowship of the Ring (The Lord of the Rings, Part 1) by J. R. R. Tolkien",4.5
+0399149155,Q Is for Quarry,Sue Grafton,Fiction,"life,story,journey,discovery,humanity",Q Is for Quarry by Sue Grafton,4.0
+0767905202,Mr. Maybe,Jane Green,Fiction,"life,story,journey,discovery,humanity",Mr. Maybe by Jane Green,3.8
+0688170528,The Pact: A Love Story,Jodi Picoult,Romance,"love,romance,relationships,emotion",The Pact: A Love Story by Jodi Picoult,4.2
+0743225082,Man and Boy: A Novel,Tony Parsons,Fiction,"life,story,journey,discovery,humanity",Man and Boy: A Novel by Tony Parsons,3.9
+0679441018,Memnoch the Devil : The Vampire Chronicles (Vampire Chronicles),ANNE RICE,Fiction,"life,story,journey,discovery,humanity",Memnoch the Devil : The Vampire Chronicles (Vampire Chronicles) by ANNE RICE,3.7
+0446609404,Cradle and All,James Patterson,Fiction,"life,story,journey,discovery,humanity",Cradle and All by James Patterson,3.9
+1573221937,How to Be Good,Nick Hornby,Fiction,"life,story,journey,discovery,humanity",How to Be Good by Nick Hornby,3.2
+0441002935,The Lunatic Cafe (Anita Blake Vampire Hunter (Paperback)),Laurell K. Hamilton,Fiction,"life,story,journey,discovery,humanity",The Lunatic Cafe (Anita Blake Vampire Hunter (Paperback)) by Laurell K. Hamilton,4.1
+0441000916,The Laughing Corpse (Anita Blake Vampire Hunter (Paperback)),Laurell K. Hamilton,Fiction,"life,story,journey,discovery,humanity",The Laughing Corpse (Anita Blake Vampire Hunter (Paperback)) by Laurell K. Hamilton,4.1
+0312983301,Full Blast (Janet Evanovich's Full Series),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Full Blast (Janet Evanovich's Full Series) by Janet Evanovich,3.4
+0028604199,Once upon a More Enlightened Time: More Politically Correct Bedtime Stories,James Finn Garner,Fiction,"life,story,journey,discovery,humanity",Once upon a More Enlightened Time: More Politically Correct Bedtime Stories by James Finn Garner,4.1
+0670839531,Needful Things: The Last Castle Rock Story,Stephen King,Memoir,"memoir,life,identity,resilience,growth",Needful Things: The Last Castle Rock Story by Stephen King,3.8
+0441010512,Club Dead (Southern Vampire Mysteries),Charlaine Harris,Fiction,"life,story,journey,discovery,humanity",Club Dead (Southern Vampire Mysteries) by Charlaine Harris,4.1
+0385503954,Atonement: A Novel,Ian McEwan,Fiction,"life,story,journey,discovery,humanity",Atonement: A Novel by Ian McEwan,4.0
+0842329242,Nicolae: The Rise of Antichrist (Left Behind No. 3),Tim F. Lahaye,Fiction,"life,story,journey,discovery,humanity",Nicolae: The Rise of Antichrist (Left Behind No. 3) by Tim F. Lahaye,4.2
+0425168298,Secret Prey,John Sandford,Thriller,"suspense,danger,adventure,survival",Secret Prey by John Sandford,4.0
+0385729332,The Sisterhood of the Traveling Pants,Ann Brashares,Fiction,"life,story,journey,discovery,humanity",The Sisterhood of the Traveling Pants by Ann Brashares,4.0
+0679731725,The Remains of the Day (Vintage International),Kazuo Ishiguro,Fiction,"life,story,journey,discovery,humanity",The Remains of the Day (Vintage International) by Kazuo Ishiguro,4.1
+015100692X,The Crimson Petal and the White,Michel Faber,Fiction,"life,story,journey,discovery,humanity",The Crimson Petal and the White by Michel Faber,3.8
+0064407691,"The Miserable Mill (A Series of Unfortunate Events, Book 4)",Lemony Snicket,Fiction,"life,story,journey,discovery,humanity","The Miserable Mill (A Series of Unfortunate Events, Book 4) by Lemony Snicket",4.2
+0679457526,Into Thin Air : A Personal Account of the Mount Everest Disaster,JON KRAKAUER,Fiction,"life,story,journey,discovery,humanity",Into Thin Air : A Personal Account of the Mount Everest Disaster by JON KRAKAUER,4.3
+0671534718,Melody (Logan),V.C. Andrews,Fiction,"life,story,journey,discovery,humanity",Melody (Logan) by V.C. Andrews,3.4
+0671741187,Where Are the Children?,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",Where Are the Children? by Mary Higgins Clark,3.9
+0743245520,"Hello, Darkness",Sandra Brown,Fiction,"life,story,journey,discovery,humanity","Hello, Darkness by Sandra Brown",3.6
+0842329269,Apollyon: The Destroyer Is Unleashed (Left Behind No. 5),Jerry Jenkins,Fiction,"life,story,journey,discovery,humanity",Apollyon: The Destroyer Is Unleashed (Left Behind No. 5) by Jerry Jenkins,4.3
+0552996181,Behind the Scenes at the Museum,Kate Atkinson,Fiction,"life,story,journey,discovery,humanity",Behind the Scenes at the Museum by Kate Atkinson,3.7
+0312265859,Hard Eight : A Stephanie Plum Novel (A Stephanie Plum Novel),Janet Evanovich,Fiction,"life,story,journey,discovery,humanity",Hard Eight : A Stephanie Plum Novel (A Stephanie Plum Novel) by Janet Evanovich,4.1
+0425151867,Acceptable Risk,Robin Cook,Fiction,"life,story,journey,discovery,humanity",Acceptable Risk by Robin Cook,3.6
+0553250426,The Clan of the Cave Bear (Earth's Children (Paperback)),Jean M. Auel,Fiction,"life,story,journey,discovery,humanity",The Clan of the Cave Bear (Earth's Children (Paperback)) by Jean M. Auel,4.1
+0446363251,"Scarlett : The Sequel to Margaret Mitchell's \""Gone With the Wind\""",Alexandra Ripley,Fiction,"life,story,journey,discovery,humanity","Scarlett : The Sequel to Margaret Mitchell's \""Gone With the Wind\"" by Alexandra Ripley",3.7
+0393319296,Invisible Monsters,Chuck Palahniuk,Fiction,"life,story,journey,discovery,humanity",Invisible Monsters by Chuck Palahniuk,3.8
+0670858692,Rose Madder,Stephen King,Fiction,"life,story,journey,discovery,humanity",Rose Madder by Stephen King,3.8
+051512219X,Small Town Girl,Lavyrle Spencer,Fiction,"life,story,journey,discovery,humanity",Small Town Girl by Lavyrle Spencer,3.6
+0836218787,Scientific Progress Goes 'Boink':  A Calvin and Hobbes Collection,Bill Watterson,Fiction,"life,story,journey,discovery,humanity",Scientific Progress Goes 'Boink':  A Calvin and Hobbes Collection by Bill Watterson,4.7
+0836218620,Weirdos From Another Planet!,Bill Watterson,Sci-Fi,"space,science,future,technology,discovery",Weirdos From Another Planet! by Bill Watterson,4.6
+0140440046,Candide (Penguin Classics),Francois M. Voltaire,Fiction,"life,story,journey,discovery,humanity",Candide (Penguin Classics) by Francois M. Voltaire,3.8
+0440223202,Evening Class,Maeve Binchy,Fiction,"life,story,journey,discovery,humanity",Evening Class by Maeve Binchy,4.2
+0140042598,On the Road,Jack Kerouac,Fiction,"life,story,journey,discovery,humanity",On the Road by Jack Kerouac,4.1
+0446364800,The General's Daughter,Nelson DeMille,Fiction,"life,story,journey,discovery,humanity",The General's Daughter by Nelson DeMille,4.0
+0553265741,Sacred Sins,Nora Roberts,Spirituality,"spirituality,faith,meaning,purpose,peace",Sacred Sins by Nora Roberts,3.6
+014100018X,Chocolat,Joanne Harris,Fiction,"life,story,journey,discovery,humanity",Chocolat by Joanne Harris,4.1
+0553583441,Touching Evil,Kay Hooper,Horror,"fear,darkness,suspense,supernatural",Touching Evil by Kay Hooper,3.8
+0786817070,"Artemis Fowl (Artemis Fowl, Book 1)",Eoin Colfer,Fiction,"life,story,journey,discovery,humanity","Artemis Fowl (Artemis Fowl, Book 1) by Eoin Colfer",3.8
+0316779423,Barrel Fever : Stories and Essays (Barrel Fever),David Sedaris,Fiction,"life,story,journey,discovery,humanity",Barrel Fever : Stories and Essays (Barrel Fever) by David Sedaris,3.9
+0064401847,Bridge to Terabithia,Katherine Paterson,Fiction,"life,story,journey,discovery,humanity",Bridge to Terabithia by Katherine Paterson,4.1
+0671776134,Plain Truth,Jodi Picoult,Fiction,"life,story,journey,discovery,humanity",Plain Truth by Jodi Picoult,3.9
+0345447867,The Apprentice,Tess Gerritsen,Fiction,"life,story,journey,discovery,humanity",The Apprentice by Tess Gerritsen,3.8
+0440213290,The Copper Beech,Maeve Binchy,Fiction,"life,story,journey,discovery,humanity",The Copper Beech by Maeve Binchy,3.7
+0060248025,Falling Up,Shel Silverstein,Fiction,"life,story,journey,discovery,humanity",Falling Up by Shel Silverstein,4.4
+0515136379,Key of Knowledge (Key Trilogy (Paperback)),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Key of Knowledge (Key Trilogy (Paperback)) by Nora Roberts,4.0
+0515136530,"Key of Valor (Roberts, Nora. Key Trilogy, 3.)",Nora Roberts,Fiction,"life,story,journey,discovery,humanity","Key of Valor (Roberts, Nora. Key Trilogy, 3.) by Nora Roberts",4.3
+051513628X,Key of Light (Key Trilogy (Paperback)),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Key of Light (Key Trilogy (Paperback)) by Nora Roberts,4.0
+0671693816,Wifey,Judy Blume,Fiction,"life,story,journey,discovery,humanity",Wifey by Judy Blume,3.5
+0451161343,Thinner,Stephen King,Fiction,"life,story,journey,discovery,humanity",Thinner by Stephen King,3.8
+0345303067,2010: Odyssey Two,Arthur C. Clarke,Fiction,"life,story,journey,discovery,humanity",2010: Odyssey Two by Arthur C. Clarke,3.8
+0440498058,A Wrinkle In Time,MADELEINE L'ENGLE,Fiction,"life,story,journey,discovery,humanity",A Wrinkle In Time by MADELEINE L'ENGLE,4.4
+0452282195,The Bluest Eye,Toni Morrison,Fiction,"life,story,journey,discovery,humanity",The Bluest Eye by Toni Morrison,3.5
+0446343455,Tourist Season,Carl Hiaasen,Fiction,"life,story,journey,discovery,humanity",Tourist Season by Carl Hiaasen,3.7
+0060096195,The Boy Next Door,Meggin Cabot,Fiction,"life,story,journey,discovery,humanity",The Boy Next Door by Meggin Cabot,4.1
+0385722435,Ella Minnow Pea: A Novel in Letters,Mark Dunn,Fiction,"life,story,journey,discovery,humanity",Ella Minnow Pea: A Novel in Letters by Mark Dunn,4.1
+0373483503,Macgregor Brides (Macgregors),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Macgregor Brides (Macgregors) by Nora Roberts,3.9
+0515122734,Sanctuary,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Sanctuary by Nora Roberts,4.2
+0842329250,Soul Harvest: The World Takes Sides (Left Behind No. 4),Tim Lahaye,Spirituality,"spirituality,faith,meaning,purpose,peace",Soul Harvest: The World Takes Sides (Left Behind No. 4) by Tim Lahaye,4.2
+0553562614,Snow Crash,Neal Stephenson,Fiction,"life,story,journey,discovery,humanity",Snow Crash by Neal Stephenson,4.2
+0375500510,Black and Blue : A Novel,ANNA QUINDLEN,Fiction,"life,story,journey,discovery,humanity",Black and Blue : A Novel by ANNA QUINDLEN,4.1
+0425183971,Reunion in Death,J. D. Robb,Mystery,"mystery,crime,suspense,detective",Reunion in Death by J. D. Robb,4.1
+0894803204,The Book of Questions,Gregory Stock,Fiction,"life,story,journey,discovery,humanity",The Book of Questions by Gregory Stock,4.0
+0425189031,Portrait in Death,Nora Roberts,Mystery,"mystery,crime,suspense,detective",Portrait in Death by Nora Roberts,3.8
+0385720955,The Blind Assassin,Margaret Atwood,Fiction,"life,story,journey,discovery,humanity",The Blind Assassin by Margaret Atwood,3.7
+0316777722,Me Talk Pretty One Day,David Sedaris,Fiction,"life,story,journey,discovery,humanity",Me Talk Pretty One Day by David Sedaris,3.8
+0679723161,Lolita (Vintage International),VLADIMIR NABOKOV,Fiction,"life,story,journey,discovery,humanity",Lolita (Vintage International) by VLADIMIR NABOKOV,4.3
+0811801802,Sabine's Notebook: In Which the Extraordinary Correspondence of Griffin & Sabine Continues,Nick Bantock,Fiction,"life,story,journey,discovery,humanity",Sabine's Notebook: In Which the Extraordinary Correspondence of Griffin & Sabine Continues by Nick Bantock,4.4
+0679744398,"All the Pretty Horses (The Border Trilogy, Vol 1)",CORMAC MCCARTHY,Fiction,"life,story,journey,discovery,humanity","All the Pretty Horses (The Border Trilogy, Vol 1) by CORMAC MCCARTHY",3.8
+0156028778,The Crimson Petal and the White,Michel Faber,Fiction,"life,story,journey,discovery,humanity",The Crimson Petal and the White by Michel Faber,3.5
+0446667900,A Darkness More Than Night,Michael Connelly,Fiction,"life,story,journey,discovery,humanity",A Darkness More Than Night by Michael Connelly,3.7
+0446611085,Suzanne's Diary for Nicholas,James Patterson,Memoir,"memoir,life,identity,resilience,growth",Suzanne's Diary for Nicholas by James Patterson,4.2
+0670031909,Lost in a Good Book: A Thursday Next Novel,Jasper Fforde,Fiction,"life,story,journey,discovery,humanity",Lost in a Good Book: A Thursday Next Novel by Jasper Fforde,4.1
+0380978415,"Fluke : Or, I Know Why the Winged Whale Sings",Christopher Moore,Fiction,"life,story,journey,discovery,humanity","Fluke : Or, I Know Why the Winged Whale Sings by Christopher Moore",4.3
+0670032379,The Secret Life of Bees,Sue Monk Kidd,Memoir,"memoir,life,identity,resilience,growth",The Secret Life of Bees by Sue Monk Kidd,4.3
+0440224594,The Return Journey,MAEVE BINCHY,Memoir,"memoir,life,identity,resilience,growth",The Return Journey by MAEVE BINCHY,3.6
+0553569155,Seinlanguage,Jerry Seinfeld,Fiction,"life,story,journey,discovery,humanity",Seinlanguage by Jerry Seinfeld,3.6
+0877017883,Griffin & Sabine: An Extraordinary Correspondence,Nick Bantock,Fiction,"life,story,journey,discovery,humanity",Griffin & Sabine: An Extraordinary Correspondence by Nick Bantock,4.5
+034536676X,The World According to Garp,John Irving,Fiction,"life,story,journey,discovery,humanity",The World According to Garp by John Irving,4.4
+0515126772,Jewels of the Sun (Irish Trilogy),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Jewels of the Sun (Irish Trilogy) by Nora Roberts,4.2
+0679735771,American Psycho (Vintage Contemporaries),Bret Easton Ellis,Fiction,"life,story,journey,discovery,humanity",American Psycho (Vintage Contemporaries) by Bret Easton Ellis,3.4
+0670844527,Dolores Claiborne,Stephen King,Fiction,"life,story,journey,discovery,humanity",Dolores Claiborne by Stephen King,3.8
+0312201656,I Capture the Castle,Dodie Smith,Fiction,"life,story,journey,discovery,humanity",I Capture the Castle by Dodie Smith,4.0
+0449219461,H Is for Homicide (Kinsey Millhone Mysteries (Paperback)),Sue Grafton,Fiction,"life,story,journey,discovery,humanity",H Is for Homicide (Kinsey Millhone Mysteries (Paperback)) by Sue Grafton,3.9
+0380001411,Christy,Catherine Marshall,Fiction,"life,story,journey,discovery,humanity",Christy by Catherine Marshall,4.1
+0316678104,Fortune's Rocks : A Novel,Anita Shreve,Fiction,"life,story,journey,discovery,humanity",Fortune's Rocks : A Novel by Anita Shreve,4.3
+051511779X,Born in Shame,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Born in Shame by Nora Roberts,4.0
+0425132048,Eyes of Prey,John Sandford,Fiction,"life,story,journey,discovery,humanity",Eyes of Prey by John Sandford,4.1
+0446606189,Cat & Mouse (Alex Cross Novels),James Patterson,Fiction,"life,story,journey,discovery,humanity",Cat & Mouse (Alex Cross Novels) by James Patterson,4.2
+0374199698,Middlesex: A Novel,Jeffrey Eugenides,Fiction,"life,story,journey,discovery,humanity",Middlesex: A Novel by Jeffrey Eugenides,4.1
+0446602620,Blood Work,Michael Connelly,Fiction,"life,story,journey,discovery,humanity",Blood Work by Michael Connelly,4.1
+044900371X,The Orchid Thief (Ballantine Reader's Circle),Susan Orlean,Fiction,"life,story,journey,discovery,humanity",The Orchid Thief (Ballantine Reader's Circle) by Susan Orlean,4.1
+0440217547,Accident,Danielle Steel,Fiction,"life,story,journey,discovery,humanity",Accident by Danielle Steel,3.5
+0670868361,Desperation,Stephen King,Fiction,"life,story,journey,discovery,humanity",Desperation by Stephen King,3.9
+0451167805,Firestarter,Stephen King,Fiction,"life,story,journey,discovery,humanity",Firestarter by Stephen King,3.9
+0451190564,The Green Mile: Night Journey (Green Mile Series),Stephen King,Memoir,"memoir,life,identity,resilience,growth",The Green Mile: Night Journey (Green Mile Series) by Stephen King,4.2
+0451190556,The Green Mile: The Bad Death of Eduard Delacroix (Green Mile Series),Stephen King,Mystery,"mystery,crime,suspense,detective",The Green Mile: The Bad Death of Eduard Delacroix (Green Mile Series) by Stephen King,4.2
+0425109720,Patriot Games (Jack Ryan Novels),Tom Clancy,Fiction,"life,story,journey,discovery,humanity",Patriot Games (Jack Ryan Novels) by Tom Clancy,4.0
+0671759345,Ruby (Landry),V.C. Andrews,Fiction,"life,story,journey,discovery,humanity",Ruby (Landry) by V.C. Andrews,3.8
+0441005241,"Burnt Offerings (Anita Blake, Vampire Hunter)",Laurell K. Hamilton,Fiction,"life,story,journey,discovery,humanity","Burnt Offerings (Anita Blake, Vampire Hunter) by Laurell K. Hamilton",4.1
+0441004520,Killing Dance (Anita Blake Vampire Hunter (Paperback)),Laurell K. Hamilton,Fiction,"life,story,journey,discovery,humanity",Killing Dance (Anita Blake Vampire Hunter (Paperback)) by Laurell K. Hamilton,4.0
+0441003745,Bloody Bones (Anita Blake Vampire Hunter (Paperback)),Laurell K. Hamilton,Fiction,"life,story,journey,discovery,humanity",Bloody Bones (Anita Blake Vampire Hunter (Paperback)) by Laurell K. Hamilton,4.2
+0515124214,Inner Harbor (Quinn Brothers (Paperback)),Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Inner Harbor (Quinn Brothers (Paperback)) by Nora Roberts,3.8
+0373244487,Cordina's Crown Jewel,Nora Roberts,Fiction,"life,story,journey,discovery,humanity",Cordina's Crown Jewel by Nora Roberts,3.7
+0345397819,Lasher: Lives of the Mayfair Witches (Lives of the Mayfair Witches),Anne Rice,Fiction,"life,story,journey,discovery,humanity",Lasher: Lives of the Mayfair Witches (Lives of the Mayfair Witches) by Anne Rice,4.0
+0671744216,The Secret,Julie Garwood,Thriller,"suspense,danger,adventure,survival",The Secret by Julie Garwood,4.1
+0064471063,The Horse and His Boy,C. S. Lewis,Fiction,"life,story,journey,discovery,humanity",The Horse and His Boy by C. S. Lewis,4.3
+084233226X,Desecration: Antichrist Takes the Throne (Left Behind No. 9),Tim Lahaye,Fiction,"life,story,journey,discovery,humanity",Desecration: Antichrist Takes the Throne (Left Behind No. 9) by Tim Lahaye,4.1
+0670835382,Four Past Midnight,Stephen King,Fiction,"life,story,journey,discovery,humanity",Four Past Midnight by Stephen King,4.1
+0451169514,It,Stephen King,Fiction,"life,story,journey,discovery,humanity",It by Stephen King,4.0
+0140053204,Travels With Charley: In Search of America,John Steinbeck,Fiction,"life,story,journey,discovery,humanity",Travels With Charley: In Search of America by John Steinbeck,4.2
+0842332251,The Mark: The Beast Rules the World (Left Behind #8),Tim LaHaye,Fiction,"life,story,journey,discovery,humanity",The Mark: The Beast Rules the World (Left Behind #8) by Tim LaHaye,4.1
+0385336810,Can You Keep a Secret?,Sophie Kinsella,Thriller,"suspense,danger,adventure,survival",Can You Keep a Secret? by Sophie Kinsella,4.2
+0060085452,Boy Meets Girl,Meg Cabot,Fiction,"life,story,journey,discovery,humanity",Boy Meets Girl by Meg Cabot,4.1
+0515102636,Morning Glory,LaVyrle Spencer,Fiction,"life,story,journey,discovery,humanity",Morning Glory by LaVyrle Spencer,4.3
+051511992X,That Camden Summer,Lavyrle Spencer,Fiction,"life,story,journey,discovery,humanity",That Camden Summer by Lavyrle Spencer,4.0
+0060920084,The Lost Continent: Travels in Small-Town America,Bill Bryson,Fiction,"life,story,journey,discovery,humanity",The Lost Continent: Travels in Small-Town America by Bill Bryson,3.8
+0446603589,Absolute Power,David Baldacci,Self-Help,"growth,productivity,success,mindset,change",Absolute Power by David Baldacci,3.9
+0451197747,The Deep End of the Ocean,Jacquelyn Mitchard,Fiction,"life,story,journey,discovery,humanity",The Deep End of the Ocean by Jacquelyn Mitchard,3.5
+0671014919,My Gal Sunday,Mary Higgins Clark,Fiction,"life,story,journey,discovery,humanity",My Gal Sunday by Mary Higgins Clark,3.4
+0451207521,Jackdaws,Ken Follett,Fiction,"life,story,journey,discovery,humanity",Jackdaws by Ken Follett,3.7
+0553280945,The Mammoth Hunters (Earth's Children (Paperback)),JEAN M. AUEL,Fiction,"life,story,journey,discovery,humanity",The Mammoth Hunters (Earth's Children (Paperback)) by JEAN M. AUEL,3.9
+0446527033,The Switch,Sandra Brown,Fiction,"life,story,journey,discovery,humanity",The Switch by Sandra Brown,3.7
+0425178765,Easy Prey,John Sandford,Fiction,"life,story,journey,discovery,humanity",Easy Prey by John Sandford,3.7
+0449223604,M Is for Malice,Sue Grafton,Fiction,"life,story,journey,discovery,humanity",M Is for Malice by Sue Grafton,4.0
+0064471101,The Magician's Nephew (rack) (Narnia),C. S. Lewis,Fiction,"life,story,journey,discovery,humanity",The Magician's Nephew (rack) (Narnia) by C. S. Lewis,4.4
+0740704818,The Blue Day Book,Bradley Trevor Greive,Fiction,"life,story,journey,discovery,humanity",The Blue Day Book by Bradley Trevor Greive,4.5
+0452279178,"Wizard and Glass (The Dark Tower, Book 4)",Stephen King,Fantasy,"magic,adventure,fantasy,quest,power","Wizard and Glass (The Dark Tower, Book 4) by Stephen King",4.1
+0345444884,The Talisman,STEPHEN KING,Fiction,"life,story,journey,discovery,humanity",The Talisman by STEPHEN KING,4.3
+0743454529,"My Sister's Keeper : A Novel (Picoult, Jodi)",Jodi Picoult,Fiction,"life,story,journey,discovery,humanity","My Sister's Keeper : A Novel (Picoult, Jodi) by Jodi Picoult",4.8
+0060008032,Angels,Marian Keyes,Fiction,"life,story,journey,discovery,humanity",Angels by Marian Keyes,3.8
+0553294903,Divine Evil,NORA ROBERTS,Horror,"fear,darkness,suspense,supernatural",Divine Evil by NORA ROBERTS,4.0
+0684814994,Christmas Box (Christmas Box Trilogy),Richard Paul Evans,Fiction,"life,story,journey,discovery,humanity",Christmas Box (Christmas Box Trilogy) by Richard Paul Evans,4.2
+0399148027,Blue Diary,Alice Hoffman,Memoir,"memoir,life,identity,resilience,growth",Blue Diary by Alice Hoffman,3.7
+0064407683,"The Wide Window (A Series of Unfortunate Events, Book 3)",Lemony Snicket,Fiction,"life,story,journey,discovery,humanity","The Wide Window (A Series of Unfortunate Events, Book 3) by Lemony Snicket",4.2
+0515135739,Eleventh Hour: An FBI Thriller (FBI Thriller (Jove Paperback)),Catherine Coulter,Thriller,"suspense,danger,adventure,survival",Eleventh Hour: An FBI Thriller (FBI Thriller (Jove Paperback)) by Catherine Coulter,4.0
+0140186409,The Grapes of Wrath (20th Century Classics),John Steinbeck,Fiction,"life,story,journey,discovery,humanity",The Grapes of Wrath (20th Century Classics) by John Steinbeck,4.0
+0452266564,The Claiming of Sleeping Beauty (Erotic Adventures of Sleeping Beauty),Rice Anne,Fiction,"life,story,journey,discovery,humanity",The Claiming of Sleeping Beauty (Erotic Adventures of Sleeping Beauty) by Rice Anne,3.7
+0375758992,Don't Let's Go to the Dogs Tonight : An African Childhood,ALEXANDRA FULLER,Fiction,"life,story,journey,discovery,humanity",Don't Let's Go to the Dogs Tonight : An African Childhood by ALEXANDRA FULLER,4.0
+0439425220,Harry Potter and the Chamber of Secrets Postcard Book,J. K. Rowling,Fiction,"life,story,journey,discovery,humanity",Harry Potter and the Chamber of Secrets Postcard Book by J. K. Rowling,4.9

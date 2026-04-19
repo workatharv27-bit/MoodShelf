@@ -1,174 +1,79 @@
 """
-recommender.py
---------------
-Main pipeline for MoodShelf. Wires together:
-  - EmotionModel
-  - ContentBasedModel
-  - CollaborativeModel
-  - HybridRecommender
-
-Usage:
-    from recommender import MoodShelf
-    ms = MoodShelf()
-    ms.load_data()
-    results = ms.recommend(
-        mood_text="I'm feeling overwhelmed and anxious lately",
-        user_id="u3",
-        reading_history=[4, 6],
-        top_n=5
-    )
+recommender.py — MoodShelf inference pipeline. Loads trained models and runs recommendations.
 """
-
+import os, sys
 import numpy as np
 import pandas as pd
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
 from models.emotion_model import EmotionModel
 from models.content_based import ContentBasedModel
 from models.collaborative import CollaborativeModel
-from models.hybrid import HybridRecommender
+from models.hybrid        import HybridRecommender
 
-
-DATA_DIR = Path(__file__).parent / "data"
+DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
 
 class MoodShelf:
-    def __init__(
-        self,
-        emotion_weight: float = 0.40,
-        content_weight: float = 0.35,
-        collab_weight: float = 0.25,
-    ):
-        self.emotion_model = EmotionModel()
-        self.content_model = ContentBasedModel()
-        self.collab_model = CollaborativeModel(n_components=10)
-        self.hybrid = HybridRecommender(emotion_weight, content_weight, collab_weight)
+    def __init__(self):
+        self.emotion  = EmotionModel()
+        self.content  = ContentBasedModel()
+        self.collab   = CollaborativeModel()
+        self.hybrid   = HybridRecommender()
         self.books_df = None
-        self.ratings_df = None
-        self._fitted = False
 
-    def load_data(
-        self,
-        books_path: str = None,
-        ratings_path: str = None,
-    ):
-        books_path = books_path or DATA_DIR / "books.csv"
-        ratings_path = ratings_path or DATA_DIR / "ratings.csv"
+    def load(self):
+        self.books_df = pd.read_csv(os.path.join(DATA_DIR, "books.csv"))
+        self.emotion.load()
+        self.content.load()
+        self.collab.load()
+        try:
+            self.hybrid.load()
+        except FileNotFoundError:
+            print("[MoodShelf] Hybrid meta-learner not found, using fallback weights.")
+        print(f"[MoodShelf] Ready. {len(self.books_df)} books loaded.")
 
-        self.books_df = pd.read_csv(books_path)
-        self.ratings_df = pd.read_csv(ratings_path)
-
-        print(f"[MoodShelf] Loaded {len(self.books_df)} books | "
-              f"{len(self.ratings_df)} ratings")
-
-        self.content_model.fit(self.books_df)
-        self.collab_model.fit(self.ratings_df)
-        self._fitted = True
-
-    def recommend(
-        self,
-        mood_text: str,
-        user_id: str = None,
-        reading_history: list = None,
-        top_n: int = 5,
-    ) -> dict:
-        """
-        Full recommendation pipeline.
-
-        Args:
-            mood_text:       Free-text description of current mood / journal entry.
-            user_id:         Known user ID (for collaborative filtering).
-            reading_history: List of book_ids the user has already read.
-            top_n:           Number of recommendations to return.
-
-        Returns:
-            A dict with:
-              - "emotions":     detected emotion scores
-              - "themes":       target themes derived from mood
-              - "books":        DataFrame of recommended books with scores
-              - "explanations": list of explanation strings
-        """
-        if not self._fitted:
-            raise RuntimeError("Call load_data() first.")
-
+    def recommend(self, mood_text: str, user_id: str = None,
+                  reading_history: list = None, top_n: int = 5) -> dict:
         reading_history = reading_history or []
-        n_books = len(self.books_df)
 
-        # ── Step 1: Detect emotions ──────────────────────────────────────────
-        emotion_scores = self.emotion_model.detect(mood_text)
-        target_themes = self.emotion_model.get_relevant_themes(emotion_scores)
-        dominant = self.emotion_model.dominant_emotion(emotion_scores)
+        emotion_scores = self.emotion.detect(mood_text)
+        themes         = self.emotion.get_relevant_themes(emotion_scores)
+        dominant       = self.emotion.dominant_emotion(emotion_scores)
 
-        print(f"\n[Pipeline] Dominant emotion: {dominant}")
-        print(f"[Pipeline] Top emotions: {dict(list(emotion_scores.items())[:3])}")
-        print(f"[Pipeline] Target themes: {target_themes[:6]}")
+        e_scores  = self.content.score_by_themes(themes)
+        c_scores  = 0.6 * e_scores + 0.4 * self.content.score_by_history(reading_history)
 
-        # ── Step 2: Content scores (mood themes) ────────────────────────────
-        emotion_content_scores = self.content_model.score_by_themes(target_themes)
-
-        # ── Step 3: Content scores (reading history) ────────────────────────
-        history_content_scores = self.content_model.score_by_history(reading_history)
-
-        # Blend the two content signals (60% mood, 40% history)
-        combined_content = 0.6 * emotion_content_scores + 0.4 * history_content_scores
-
-        # ── Step 4: Collaborative scores ────────────────────────────────────
-        if user_id and user_id in self.collab_model.user_index:
-            cf_dict = self.collab_model.scores_to_book_dict(
-                self.collab_model.score_for_user(user_id)
-            )
+        if user_id and user_id in self.collab.user_index:
+            cf_arr = self.collab.score_for_user(user_id)
         else:
-            cf_dict = self.collab_model.scores_to_book_dict(
-                self.collab_model.score_for_new_user(reading_history)
-            )
+            cf_arr = self.collab.score_for_new_user(reading_history)
+        cf_scores = np.array([self.collab.scores_to_dict(cf_arr).get(bid, 0.0)
+                               for bid in self.books_df["book_id"]])
 
-        # Map CF scores to book order in books_df
-        cf_scores = np.array([
-            cf_dict.get(bid, 0.0) for bid in self.books_df["book_id"]
-        ])
-
-        # ── Step 5: Hybrid fusion ────────────────────────────────────────────
         recs = self.hybrid.recommend(
-            books_df=self.books_df,
-            emotion_scores_by_book=emotion_content_scores,
-            content_scores_by_book=combined_content,
-            collab_scores_by_book=cf_scores,
-            exclude_book_ids=reading_history,
-            top_n=top_n,
+            self.books_df, e_scores, c_scores, cf_scores,
+            exclude_ids=reading_history, top_n=top_n
         )
-
         explanations = [self.hybrid.explain(row) for _, row in recs.iterrows()]
 
         return {
             "emotions": emotion_scores,
-            "dominant_emotion": dominant,
-            "themes": target_themes[:6],
-            "books": recs,
+            "dominant": dominant,
+            "themes":   themes,
+            "books":    recs,
             "explanations": explanations,
         }
 
-    def pretty_print(self, results: dict):
-        print("\n" + "═" * 60)
-        print("  🌙  MoodShelf Recommendations")
-        print("═" * 60)
-
-        em = results["emotions"]
-        top_ems = list(em.items())[:3]
-        print(f"\n  Detected mood:  {', '.join(f'{k} ({v:.0%})' for k, v in top_ems)}")
-        print(f"  Target themes:  {', '.join(results['themes'])}")
-        print()
-
-        for i, (_, row) in enumerate(results["books"].iterrows()):
-            exp = results["explanations"][i]
-            print(f"  {i+1}. {row['title']}  by {row['author']}")
-            print(f"     Genre: {row['genre']}  |  ★ {row['avg_rating']}")
-            print(f"     {exp}")
-            score_bar = (
-                f"     Scores → emotion:{row['score_emotion']:.2f}  "
-                f"content:{row['score_content']:.2f}  "
-                f"collab:{row['score_collab']:.2f}  "
-                f"final:{row['score_final']:.2f}"
-            )
-            print(score_bar)
-            print()
-        print("═" * 60)
+    def pretty_print(self, r: dict):
+        print("\n" + "═"*60)
+        top3 = list(r["emotions"].items())[:3]
+        print(f"  Mood: {', '.join(f'{e}({s:.0%})' for e,s in top3)}")
+        print(f"  Themes: {', '.join(r['themes'])}\n")
+        for i, (_, row) in enumerate(r["books"].iterrows()):
+            print(f"  {i+1}. {row['title']}  [{row['genre']}] ★{row['avg_rating']}")
+            print(f"     {r['explanations'][i]}")
+            print(f"     e:{row['score_emotion']:.2f} c:{row['score_content']:.2f} "
+                  f"cf:{row['score_collab']:.2f} → {row['score_final']:.2f}\n")
+        print("═"*60)
